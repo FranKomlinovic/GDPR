@@ -1,0 +1,38 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Podizanje svijesti",
+    "questions": [
+      {
+        "id": "1.1",
+        "topic": "Edukacija zaposlenika",
+        "question": "Jesu li svi zaposlenici upoznati s GDPR regulativom?",
+        "requirement": "Edukacija zaposlenika"
+      },
+      {
+        "id": "1.2",
+        "topic": "Raskoraci s regulativom",
+        "question": "Jesu li identificirani mogući raskoraci s regulativom?",
+        "requirement": "članak 28(3)"
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Podatkovna revizija",
+    "questions": [
+      {
+        "id": "2.1",
+        "topic": "Osobni podaci",
+        "question": "Koji osobni podaci se pohranjuju?",
+        "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      },
+      {
+        "id": "2.2",
+        "topic": "Osjetljivi osobni podaci",
+        "question": "Ima li osjetljivih podataka? (podaci o djeci, zdravstveni podaci.. Članak 9)",
+        "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      }
+    ]
+  }
+]

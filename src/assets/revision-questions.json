@@ -1,0 +1,34 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Upravljanje odgovornošću",
+    "questions": [
+      {
+        "id": "1.1",
+        "question": "Održavate li sveobuhvatnu politiku zaštite podataka koja pokazuje usklađenost sa zahtjevima, a koji uključuju obradu, privatnost dizajnom i vođenje evidencije?",
+        "reference": "5(2)"
+      },
+      {
+        "id": "1.2",
+        "question": "Obučavate li sve zaposlenike o GDPR zahtjevima i načelima - uključujući aktivnosti obrade, kontrole, procjene utjecaja na privatnost, revizije, prava ispitanika, liniju odgovornosti, privatnost prema dizajnu  i potencijalne posljedice nepridržavanja propisanih mjera?",
+        "reference": "5(2)"
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Principi obrade",
+    "questions": [
+      {
+        "id": "2.1",
+        "question": "Održavate li politike upravljanja zapisima i čuvanja podataka?",
+        "reference": "24(1,2,3)"
+      },
+      {
+        "id": "2.2",
+        "question": "Jeste li dokumentirali principe koji opravdavaju razdoblja zadržavanja?",
+        "reference": "5(1)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+
+<h1>{{category.categoryId + " " + category.categoryName}}</h1>
+
+<div *ngFor="let question of category.questions">
+  <h2>{{question.id + " " + question.question}}</h2>
+
+  <p-triStateCheckbox [(ngModel)]="question.yesNo" label="Da/Ne"></p-triStateCheckbox>
+  <br>
+  <h5>Dokaz/Trenutno Stanje:</h5>
+  <input type="text" [(ngModel)]="question.evidence" required/>
+  <h5>Vrijednost: {{question.percentage}} %</h5>
+  <input type="text" [(ngModel)]="question.percentage" required/>
+  <p-slider [(ngModel)]="question.percentage" required></p-slider>
+  <br>
+  <hr>
+</div>

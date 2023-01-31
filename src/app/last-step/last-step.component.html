@@ -1,0 +1,19 @@
+<div>
+  <h1>Ime popunjavatelja:</h1>
+  <p>{{gdprComponent.request.gdprManagerName}}</p>
+  <h1>Usklađenost po područjima</h1>
+  <div *ngFor="let res of gdprComponent.request.result.resultByCategories">
+    <p>{{res.id + ". " + res.name + " " + res.result}}%</p>
+  </div>
+  <h1>Usklađenost po stavkama</h1>
+  <div *ngFor="let res of gdprComponent.request.result.resultByFields">
+    <p>{{res.id + ". " + res.name + " " + res.result}}%</p>
+  </div>
+
+  <p-button
+    (click)="submit()"
+    label="Spremi"
+    [disabled] = "gdprComponent.request.isNotComplete()"
+    styleClass="p-button-secondary"
+  ></p-button>
+</div>

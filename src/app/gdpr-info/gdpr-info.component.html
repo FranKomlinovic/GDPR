@@ -1,0 +1,38 @@
+<div class="m-2 border-1 p-2">
+  <div>
+    <p-chart type="pie" [data]="data"></p-chart>
+  </div>
+  <div>
+    <h5>Ispunio: {{model.gdprManagerName}}</h5>
+  </div>
+  <div class="grid grid-nogutter">
+
+    <p-button
+      icon="pi pi-eye"
+      label="Detalji"
+      styleClass="p-button"
+      (click)="details()"
+      class="col m-1"
+    >
+    </p-button>
+
+    <p-button
+      styleClass="p-button-success"
+      label="Uredi"
+      icon="pi pi-pencil"
+      class="col m-1"
+      (click)="edit()"
+    >
+    </p-button>
+
+    <p-button
+      icon="pi pi-trash"
+      label="Obriši"
+      styleClass="p-button-danger"
+      (click)="delete()"
+      class="col m-1"
+    >
+    </p-button>
+
+  </div>
+</div>

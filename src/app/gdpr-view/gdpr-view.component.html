@@ -1,0 +1,13 @@
+<p-button
+  (click)="showDialog()"
+  label="Dodaj novi PIA"
+  styleClass="p-button-success"
+></p-button>
+
+<h2>Ispunjeni PIA obrasci:</h2>
+<div class="grid grid-nogutter">
+  <div *ngFor="let model of gdprModels">
+    <app-gdpr-info-view class="col" [model]="model"></app-gdpr-info-view>
+  </div>
+</div>
+<p-toast></p-toast>
