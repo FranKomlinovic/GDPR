@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {GdprModel} from "../models/gdprModel";
+import {GdprModel} from "../models/gdpr/gdprModel";
 import {DynamicDialogConfig} from "primeng/dynamicdialog";
 
 @Component({

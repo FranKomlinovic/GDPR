@@ -1,23 +1,21 @@
 import {Component, OnInit} from '@angular/core';
 import {MenuItem} from "primeng/api";
-import {GdprModel} from "../models/gdpr/gdprModel";
+import {RevisionModel} from "../models/revision/revisionModel";
 import {DynamicDialogConfig, DynamicDialogRef} from "primeng/dynamicdialog";
-import { Location } from '@angular/common';
-
+import {Location} from "@angular/common";
 
 @Component({
-  selector: 'app-gdpr-form',
-  templateUrl: './gdpr-form.component.html',
-  styleUrls: ['./gdpr-form.component.css']
+  selector: 'app-revision-form',
+  templateUrl: './revision-form.component.html',
+  styleUrls: ['./revision-form.component.css']
 })
-export class GdprFormComponent implements OnInit {
+export class RevisionFormComponent implements OnInit {
 
   items: MenuItem[];
-  public request: GdprModel;
+  public request: RevisionModel;
 
   constructor(public config: DynamicDialogConfig, public ref: DynamicDialogRef, private location: Location) {
   }
-
 
   ngOnInit(): void {
     this.ref.onClose.subscribe(() => this.location.replaceState(''));
@@ -25,16 +23,16 @@ export class GdprFormComponent implements OnInit {
     this.items = this.request.categories.map((val) => {
       return {
         label: val.categoryName,
-        routerLink: 'category/' + val.categoryId,
+        routerLink: 'revision-category/' + val.categoryId,
       };
     });
     this.items.unshift({
       label: 'Početak',
-      routerLink: 'first-step',
+      routerLink: 'revision-first-step',
     });
     this.items.push({
       label: 'Kraj',
-      routerLink: 'last-step',
+      routerLink: 'revision-last-step',
     });
   }
 

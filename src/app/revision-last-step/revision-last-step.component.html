@@ -1,0 +1,24 @@
+<div>
+  <h1>Ime popunjavatelja:</h1>
+  <p>{{revisionFormComponent.request.gdprManagerName}}</p>
+  <h1>Ukupno</h1>
+  <p>Potpuno usklađeno: {{revisionFormComponent.request.result.pu}}</p>
+  <p>U tijeku: {{revisionFormComponent.request.result.ut}}</p>
+  <p>Nije usklađeno : {{revisionFormComponent.request.result.nu}}</p>
+  <p>Nije primjenjivo:  {{revisionFormComponent.request.result.np}}</p>
+  <h1>Usklađenost po područjima</h1>
+  <div *ngFor="let res of revisionFormComponent.request.result.resultByCategories">
+    <h2>{{res.id + ". " + res.name}}</h2>
+    <p>Potpuno usklađeno: {{res.pu}}</p>
+    <p>U tijeku: {{res.ut}}</p>
+    <p>Nije usklađeno : {{res.nu}}</p>
+    <p>Nije primjenjivo: {{res.np}}</p>
+  </div>
+
+  <p-button
+    (click)="submit()"
+    label="Spremi"
+    [disabled] = "revisionFormComponent.request.isNotComplete()"
+    styleClass="p-button-secondary"
+  ></p-button>
+</div>

@@ -1,0 +1,19 @@
+<h1>{{category.categoryId + " " + category.categoryName}}</h1>
+
+<div *ngFor="let question of category.questions">
+  <h2>{{question.id + " " + question.question}}</h2>
+
+  <h5>Dokaz/Trenutno Stanje:</h5>
+  <div class="field-radiobutton">
+    <p-radioButton name="groupname" value="PU" label="Potpuno usklađno" [(ngModel)]="question.response"></p-radioButton>
+  </div>
+  <div class="field-radiobutton">
+    <p-radioButton name="groupname" value="UT" label="U tijeku" [(ngModel)]="question.response"></p-radioButton>
+  </div>
+  <div class="field-radiobutton">
+    <p-radioButton name="groupname" value="NU" label="Nije usklađno" [(ngModel)]="question.response"></p-radioButton>
+  </div>
+  <div class="field-radiobutton">
+    <p-radioButton name="groupname" value="NP" label="Nije primjenjivo" [(ngModel)]="question.response"></p-radioButton>
+  </div>
+</div>

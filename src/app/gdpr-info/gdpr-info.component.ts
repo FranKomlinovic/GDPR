@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {GdprModel} from "../models/gdprModel";
+import {GdprModel} from "../models/gdpr/gdprModel";
 import {GdprFormComponent} from "../gdpr-form/gdpr-form.component";
 import {DialogService} from "primeng/dynamicdialog";
 import {GdprDetailsComponent} from "../gdpr-details/gdpr-details.component";
@@ -34,6 +34,14 @@ export class GdprInfoComponent implements OnInit {
         }
       ]
     };
+  }
+
+  getCreatedAt(): string {
+    return new Date(this.model.createdDate).toLocaleString("de-AT");
+  }
+
+  getLastUpdatedAt(): string {
+    return new Date(this.model.updatedDate).toLocaleString("de-AT");
   }
 
   delete() {

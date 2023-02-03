@@ -1,0 +1,69 @@
+[
+  {
+    "id": "c28fc272-2c93-4c1a-beef-f72fa35b1d7f",
+    "companyId": "7712c177-a98b-44bd-96c0-fefe2e7de2fd",
+    "gdprManagerName": "Fran Komlinović",
+    "categories": [
+      {
+        "categoryId": 1,
+        "categoryName": "Upravljanje odgovornošću",
+        "questions": [
+          {
+            "id": "1.1",
+            "question": "Održavate li sveobuhvatnu politiku zaštite podataka koja pokazuje usklađenost sa zahtjevima, a koji uključuju obradu, privatnost dizajnom i vođenje evidencije?",
+            "reference": "5(2)",
+            "response": "NP"
+          },
+          {
+            "id": "1.2",
+            "question": "Obučavate li sve zaposlenike o GDPR zahtjevima i načelima - uključujući aktivnosti obrade, kontrole, procjene utjecaja na privatnost, revizije, prava ispitanika, liniju odgovornosti, privatnost prema dizajnu  i potencijalne posljedice nepridržavanja propisanih mjera?",
+            "reference": "5(2)",
+            "response": "PU"
+          }
+        ]
+      },
+      {
+        "categoryId": 2,
+        "categoryName": "Principi obrade",
+        "questions": [
+          {
+            "id": "2.1",
+            "question": "Održavate li politike upravljanja zapisima i čuvanja podataka?",
+            "reference": "24(1,2,3)",
+            "response": "UT"
+          },
+          {
+            "id": "2.2",
+            "question": "Jeste li dokumentirali principe koji opravdavaju razdoblja zadržavanja?",
+            "reference": "5(1)",
+            "response": "NU"
+          }
+        ]
+      }
+    ],
+    "result": {
+      "resultByCategories": [
+        {
+          "id": "1",
+          "name": "Upravljanje odgovornošću",
+          "pu": 3,
+          "ut": 4,
+          "nu": 2,
+          "np": 1
+        },
+        {
+          "id": "2",
+          "name": "Principi obrade",
+          "pu": 7,
+          "ut": 4,
+          "nu": 0,
+          "np": 1
+        }
+      ],
+      "pu": 54,
+      "ut": 14,
+      "nu": 2,
+      "np": 12
+    }
+  }
+]

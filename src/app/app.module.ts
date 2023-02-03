@@ -23,6 +23,13 @@ import {FormsModule} from "@angular/forms";
 import {GdprDetailsComponent} from './gdpr-details/gdpr-details.component';
 import {ProgressSpinnerModule} from "primeng/progressspinner";
 import {MessageService} from "primeng/api";
+import { RevisionFormComponent } from './revision-form/revision-form.component';
+import { RevisionInfoComponent } from './revision-info/revision-info.component';
+import { RevisionDetailsComponent } from './revision-details/revision-details.component';
+import { RevisionCategoryComponent } from './revision-category/revision-category.component';
+import {RadioButtonModule} from "primeng/radiobutton";
+import { RevisionFirstStepComponent } from './revision-first-step/revision-first-step.component';
+import { RevisionLastStepComponent } from './revision-last-step/revision-last-step.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +40,13 @@ import {MessageService} from "primeng/api";
     FirstStepComponent,
     LastStepComponent,
     GdprCategoryComponent,
-    GdprDetailsComponent
+    GdprDetailsComponent,
+    RevisionFormComponent,
+    RevisionInfoComponent,
+    RevisionDetailsComponent,
+    RevisionCategoryComponent,
+    RevisionFirstStepComponent,
+    RevisionLastStepComponent
   ],
   imports: [
     BrowserModule,
@@ -50,6 +63,7 @@ import {MessageService} from "primeng/api";
     SliderModule,
     FormsModule,
     ProgressSpinnerModule,
+    RadioButtonModule,
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]

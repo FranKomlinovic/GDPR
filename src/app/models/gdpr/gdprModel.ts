@@ -6,6 +6,8 @@ export class GdprModel {
   id: string;
   companyId: string;
   gdprManagerName: string;
+  updatedDate: Date;
+  createdDate: Date;
   categories: QuestionCategoryModel[];
   result: ResultModel;
 

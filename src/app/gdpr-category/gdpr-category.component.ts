@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
-import {QuestionCategoryModel} from "../models/questionCategoryModel";
+import {QuestionCategoryModel} from "../models/gdpr/questionCategoryModel";
 import {GdprFormComponent} from "../gdpr-form/gdpr-form.component";
 
 @Component({
