@@ -15,6 +15,7 @@ import {RevisionFormComponent} from "../revision-form/revision-form.component";
 })
 export class GdprViewComponent implements OnInit {
 
+  spinner: boolean;
   gdprModels: GdprModel[];
   revisionModels: RevisionModel[];
   display: boolean = false;
@@ -24,7 +25,11 @@ export class GdprViewComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.backendService.getGdprByCompanyId().subscribe(a => this.gdprModels = a);
+    this.spinner = true;
+    this.backendService.getGdprByCompanyId().subscribe(a => {
+      this.gdprModels = a
+      this.spinner = false;
+    });
     this.backendService.getRevisionByCopmanyId().subscribe(a => this.revisionModels = a);
   }
 
@@ -36,7 +41,12 @@ export class GdprViewComponent implements OnInit {
         model.categories = questions;
         this.dialogService.open(GdprFormComponent, {
           data: model,
-          header: "Novi PIA"
+          modal: true,
+          style: {'max-width' : '90%'},
+          contentStyle: {"overflow": "auto"},
+          baseZIndex: 10000,
+          maximizable: true,
+          header: "Nova Lista Usklađenosti"
         });
       });
   }
@@ -49,7 +59,12 @@ export class GdprViewComponent implements OnInit {
         model.categories = questions;
         this.dialogService.open(RevisionFormComponent, {
           data: model,
-          header: "Nova revizija"
+          modal: true,
+          style: {'max-width' : '90%'},
+          contentStyle: {"overflow": "auto"},
+          baseZIndex: 10000,
+          maximizable: true,
+          header: "Nova revizija zahtjeva"
         });
       });
   }

@@ -22,14 +22,19 @@ import {SliderModule} from "primeng/slider";
 import {FormsModule} from "@angular/forms";
 import {GdprDetailsComponent} from './gdpr-details/gdpr-details.component';
 import {ProgressSpinnerModule} from "primeng/progressspinner";
-import {MessageService} from "primeng/api";
-import { RevisionFormComponent } from './revision-form/revision-form.component';
-import { RevisionInfoComponent } from './revision-info/revision-info.component';
-import { RevisionDetailsComponent } from './revision-details/revision-details.component';
-import { RevisionCategoryComponent } from './revision-category/revision-category.component';
+import {ConfirmationService, MessageService} from "primeng/api";
+import {RevisionFormComponent} from './revision-form/revision-form.component';
+import {RevisionInfoComponent} from './revision-info/revision-info.component';
+import {RevisionDetailsComponent} from './revision-details/revision-details.component';
+import {RevisionCategoryComponent} from './revision-category/revision-category.component';
 import {RadioButtonModule} from "primeng/radiobutton";
-import { RevisionFirstStepComponent } from './revision-first-step/revision-first-step.component';
-import { RevisionLastStepComponent } from './revision-last-step/revision-last-step.component';
+import {RevisionFirstStepComponent} from './revision-first-step/revision-first-step.component';
+import {RevisionLastStepComponent} from './revision-last-step/revision-last-step.component';
+import {ConfirmDialogModule} from "primeng/confirmdialog";
+import {InputTextModule} from "primeng/inputtext";
+import {InputTextareaModule} from "primeng/inputtextarea";
+import {DialogService} from "primeng/dynamicdialog";
+import {TabViewModule} from "primeng/tabview";
 
 @NgModule({
   declarations: [
@@ -64,8 +69,12 @@ import { RevisionLastStepComponent } from './revision-last-step/revision-last-st
     FormsModule,
     ProgressSpinnerModule,
     RadioButtonModule,
+    ConfirmDialogModule,
+    InputTextModule,
+    InputTextareaModule,
+    TabViewModule,
   ],
-  providers: [MessageService],
+  providers: [MessageService, ConfirmationService, DialogService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

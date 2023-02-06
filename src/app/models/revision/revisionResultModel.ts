@@ -2,6 +2,7 @@ import {RevisionCategoryModel} from "./revisionCategoryModel";
 
 export class RevisionResultModel {
   resultByCategories: ResultObjectModel[];
+  notAnswered: number = 0;
   np: number = 0;
   pu: number = 0;
   ut: number = 0;
@@ -11,6 +12,7 @@ export class RevisionResultModel {
     this.resultByCategories = model.map(a => new ResultObjectModel(a));
 
     model.map(a => {
+      this.notAnswered = this.notAnswered + a.questions.filter(a => a.response == undefined).length;
       let revisionQuestionModels = a.questions.filter(a => a.response != undefined);
       this.pu = this.pu + revisionQuestionModels.filter(a => a.response.valueOf() === "PU").length;
       this.np = this.np + revisionQuestionModels.filter(a => a.response.valueOf() === "NP").length;
@@ -35,6 +37,7 @@ export class RevisionResultModel {
 export class ResultObjectModel {
   id: number;
   name: string;
+  notAnswered: number;
   np: number;
   pu: number;
   ut: number;
@@ -45,6 +48,7 @@ export class ResultObjectModel {
     this.name = categoryModel.categoryName;
     let revisionQuestionModels = categoryModel.questions.filter(a => a.response != undefined);
 
+    this.notAnswered = categoryModel.questions.filter(a => a.response == undefined).length;
     this.pu = revisionQuestionModels.filter(a => a.response.valueOf() === "PU").length;
     this.np = revisionQuestionModels.filter(a => a.response.valueOf() === "NP").length;
     this.ut = revisionQuestionModels.filter(a => a.response.valueOf() === "UT").length;

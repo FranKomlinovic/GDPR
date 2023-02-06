@@ -16,8 +16,6 @@ export class GdprModel {
   }
 
   isNotComplete(): boolean {
-    // todo fix this
-    return false;
-    // return this.result.isNotComplete() || this.gdprManagerName == undefined;
+    return this.result.isNotComplete() || this.gdprManagerName == undefined;
   }
 }

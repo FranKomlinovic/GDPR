@@ -24,12 +24,14 @@ export class RevisionLastStepComponent implements OnInit {
   }
 
   submit() {
+    this.gdprViewComponent.spinner = true;
     this.backendService
       .postRevision(this.revisionFormComponent.request)
       .subscribe((a) => {
           this.messageService.add({severity: 'success', summary: 'Uspjeh', detail: a.message})
           this.ref.close();
           this.gdprViewComponent.ngOnInit();
+          this.gdprViewComponent.spinner = false;
         }
       );
   }

@@ -4,6 +4,7 @@ import {GdprFormComponent} from "../gdpr-form/gdpr-form.component";
 import {MessageService} from "primeng/api";
 import {DynamicDialogRef} from "primeng/dynamicdialog";
 import {GdprViewComponent} from "../gdpr-view/gdpr-view.component";
+import {ResultObjectModel} from "../models/gdpr/resultModel";
 
 @Component({
   selector: 'app-last-step',
@@ -23,15 +24,32 @@ export class LastStepComponent implements OnInit {
     this.gdprComponent.request.calculateResult();
   }
 
+  getName(): string {
+    let gdprManagerName = this.gdprComponent.request.gdprManagerName;
+    if (gdprManagerName == undefined) {
+      return "Nije popunjeno";
+    }
+    return gdprManagerName;
+  }
+
+  getValue(result: ResultObjectModel): string {
+    let s = result.id + ". " + result.name + ": ";
+    if (result.result == undefined || Number.isNaN(result.result)) {
+      return s + "Nije popunjeno";
+    }
+    return s + result.result + "%";
+  }
+
   submit() {
+    this.gdprViewComponent.spinner = true;
     this.backendService
       .postGdpr(this.gdprComponent.request)
       .subscribe((a) => {
-        this.messageService.add({severity:'success', summary:'Uspjeh', detail:a.message})
-        this.ref.close();
-        this.gdprViewComponent.ngOnInit();
-      }
-
+          this.messageService.add({severity: 'success', summary: 'Uspjeh', detail: a.message})
+          this.ref.close();
+          this.gdprViewComponent.ngOnInit();
+          this.gdprViewComponent.spinner = false;
+        }
       );
   }
 

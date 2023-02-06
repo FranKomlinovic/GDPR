@@ -4,7 +4,7 @@ import {DialogService} from "primeng/dynamicdialog";
 import {RevisionDetailsComponent} from "../revision-details/revision-details.component";
 import {RevisionFormComponent} from "../revision-form/revision-form.component";
 import {BackendService} from "../backend.service";
-import {MessageService} from "primeng/api";
+import {ConfirmationService, MessageService} from "primeng/api";
 import {GdprViewComponent} from "../gdpr-view/gdpr-view.component";
 
 @Component({
@@ -17,7 +17,7 @@ export class RevisionInfoComponent implements OnInit {
   @Input() model: RevisionModel;
   data: any;
 
-  constructor(private gdprViewComponent: GdprViewComponent, private dialogService: DialogService, private backendService: BackendService,  private messageService: MessageService) {
+  constructor(private gdprViewComponent: GdprViewComponent, private dialogService: DialogService, private backendService: BackendService, private messageService: MessageService, private confirmationService: ConfirmationService) {
   }
 
   ngOnInit(): void {
@@ -38,6 +38,14 @@ export class RevisionInfoComponent implements OnInit {
     };
   }
 
+  getCreatedAt(): string {
+    return new Date(this.model.createdDate).toLocaleString("de-AT");
+  }
+
+  getLastUpdatedAt(): string {
+    return new Date(this.model.updatedDate).toLocaleString("de-AT");
+  }
+
   details() {
     this.dialogService.open(RevisionDetailsComponent, {
       data: this.model,
@@ -56,6 +64,15 @@ export class RevisionInfoComponent implements OnInit {
     this.dialogService.open(RevisionFormComponent, {
       data: revisionModel,
       header: "Ažuriraj reviziju"
+    });
+  }
+
+  confirm() {
+    this.confirmationService.confirm({
+      message: 'Jeste li sigurni da želite obrisati?',
+      accept: () => {
+        this.delete();
+      }
     });
   }
 

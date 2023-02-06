@@ -2,6 +2,7 @@
   <h1>Ime popunjavatelja:</h1>
   <p>{{revisionFormComponent.request.gdprManagerName}}</p>
   <h1>Ukupno</h1>
+  <b *ngIf="revisionFormComponent.request.result.notAnswered > 0">Nije odgovoreno: {{revisionFormComponent.request.result.notAnswered}}</b>
   <p>Potpuno usklađeno: {{revisionFormComponent.request.result.pu}}</p>
   <p>U tijeku: {{revisionFormComponent.request.result.ut}}</p>
   <p>Nije usklađeno : {{revisionFormComponent.request.result.nu}}</p>
@@ -9,6 +10,7 @@
   <h1>Usklađenost po područjima</h1>
   <div *ngFor="let res of revisionFormComponent.request.result.resultByCategories">
     <h2>{{res.id + ". " + res.name}}</h2>
+    <b *ngIf="res.notAnswered > 0">Nije odgovoreno: {{res.notAnswered}}</b>
     <p>Potpuno usklađeno: {{res.pu}}</p>
     <p>U tijeku: {{res.ut}}</p>
     <p>Nije usklađeno : {{res.nu}}</p>
@@ -16,7 +18,7 @@
   </div>
 
   <p-button
-    (click)="submit()"
+    (onClick)="submit()"
     label="Spremi"
     [disabled] = "revisionFormComponent.request.isNotComplete()"
     styleClass="p-button-secondary"

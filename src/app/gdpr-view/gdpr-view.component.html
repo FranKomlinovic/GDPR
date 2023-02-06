@@ -1,26 +1,36 @@
-<h2>Ispunjeni PIA obrasci:</h2>
-<p-button
-  (click)="showGdprDialog()"
-  label="Dodaj novi PIA"
-  styleClass="p-button-success"
-  class="col-2"
-></p-button>
-<div class="grid grid-nogutter">
-  <div *ngFor="let model of gdprModels">
-    <app-gdpr-info-view class="col" [model]="model"></app-gdpr-info-view>
-  </div>
-</div>
-
-<h2>Ispunjene revizije:</h2>
-<p-button
-  (click)="showRevisionDialog()"
-  label="Dodaj novu Reviziju"
-  styleClass="p-button-success"
-  class="col-2"
-></p-button>
-<div class="grid grid-nogutter">
-  <div *ngFor="let revisionModel of revisionModels">
-    <app-revision-info class="col" [model]="revisionModel"></app-revision-info>
-  </div>
-</div>
+<p-tabView>
+  <p-tabPanel header="Lista usklađenosti">
+    <h2>Liste usklađenosti:</h2>
+    <p-button
+      (click)="showGdprDialog()"
+      icon="pi pi-plus"
+      label="Dodaj"
+      styleClass="p-button-success"
+      class="col-2"
+    ></p-button>
+    <div class="grid grid-nogutter">
+      <div *ngFor="let model of gdprModels">
+        <app-gdpr-info-view class="col" [model]="model"></app-gdpr-info-view>
+      </div>
+    </div>
+  </p-tabPanel>
+  <p-tabPanel header="Revizija zahtjeva">
+    <h2>Revizija zahtjeva:</h2>
+    <p-button
+      (click)="showRevisionDialog()"
+      icon="pi pi-plus"
+      label="Dodaj"
+      styleClass="p-button-success"
+      class="col-2"
+    ></p-button>
+    <div class="grid grid-nogutter">
+      <div *ngFor="let revisionModel of revisionModels">
+        <app-revision-info class="col" [model]="revisionModel"></app-revision-info>
+      </div>
+    </div>
+  </p-tabPanel>
+</p-tabView>
 <p-toast></p-toast>
+<p-progressSpinner *ngIf="spinner" class="progress-spinner"></p-progressSpinner>
+<p-confirmDialog header="Confirmation" icon="pi pi-exclamation-triangle"></p-confirmDialog>
+

@@ -6,6 +6,8 @@ export class RevisionModel {
   id: string;
   companyId: string;
   gdprManagerName: string;
+  updatedDate: Date;
+  createdDate: Date;
   categories: RevisionCategoryModel[];
   result: RevisionResultModel;
 

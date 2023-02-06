@@ -4,7 +4,7 @@ import {GdprFormComponent} from "../gdpr-form/gdpr-form.component";
 import {DialogService} from "primeng/dynamicdialog";
 import {GdprDetailsComponent} from "../gdpr-details/gdpr-details.component";
 import {BackendService} from "../backend.service";
-import {MessageService} from "primeng/api";
+import {ConfirmationService, MessageService} from "primeng/api";
 import {GdprViewComponent} from "../gdpr-view/gdpr-view.component";
 
 @Component({
@@ -16,14 +16,14 @@ export class GdprInfoComponent implements OnInit {
   @Input() model: GdprModel;
   data: any;
 
-  constructor(private gdprViewComponent: GdprViewComponent, public dialogService: DialogService, private backedService: BackendService, private messageService: MessageService) {
+  constructor(private gdprViewComponent: GdprViewComponent, public dialogService: DialogService, private backedService: BackendService, private messageService: MessageService, private confirmationService: ConfirmationService) {
   }
 
   ngOnInit(): void {
     let finalResult = this.model.result.finalResult;
     let remainder = 100 - finalResult;
     this.data = {
-      labels: ['Rezultat: ' + finalResult + '%'],
+      labels: ['Usklađeno: ' + finalResult + '%'],
       datasets: [
         {
           data: [finalResult, remainder],
@@ -42,6 +42,15 @@ export class GdprInfoComponent implements OnInit {
 
   getLastUpdatedAt(): string {
     return new Date(this.model.updatedDate).toLocaleString("de-AT");
+  }
+
+  confirm() {
+    this.confirmationService.confirm({
+      message: 'Jeste li sigurni da želite obrisati?',
+      accept: () => {
+        this.delete();
+      }
+    });
   }
 
   delete() {

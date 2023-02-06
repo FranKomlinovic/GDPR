@@ -13,20 +13,21 @@ import {RevisionCategoryModel} from "./models/revision/revisionCategoryModel";
 })
 export class BackendService {
 
-  rootUrl = 'https://ua1sevlcal.execute-api.eu-central-1.amazonaws.com/prod/gdpr';
-  byCompanyUrl = this.rootUrl + '/company/' + environment.companyId;
+  rootUrl = 'https://i9zg2jeemb.execute-api.eu-central-1.amazonaws.com/prod';
+  gdprUrl = this.rootUrl + '/gdpr';
   revisionUrl = this.rootUrl + '/revision';
+  gdprByCompanyUrl = this.gdprUrl + '/company/' + environment.companyId;
+  revisionByCompanyUrl = this.revisionUrl + '/company/' + environment.companyId;
 
   constructor(private http: HttpClient) {
   }
 
   getGdprByCompanyId(): Observable<GdprModel[]> {
-    return this.http.get<GdprModel[]>(this.byCompanyUrl);
+    return this.http.get<GdprModel[]>(this.gdprByCompanyUrl);
   }
 
   getRevisionByCopmanyId(): Observable<RevisionModel[]> {
-    return this.http.get<RevisionModel[]>('assets/revision-mock.json');
-    // return this.http.get<RevisionModel[]>(this.byCompanyUrl);
+    return this.http.get<RevisionModel[]>(this.revisionByCompanyUrl);
   }
 
   getQuestions(): Observable<QuestionCategoryModel[]> {
@@ -38,7 +39,7 @@ export class BackendService {
   }
 
   deleteGdpr(id: string): Observable<IMessageResponse> {
-    return this.http.delete<IMessageResponse>(this.rootUrl + "/" + id);
+    return this.http.delete<IMessageResponse>(this.gdprUrl + "/" + id);
   }
 
   deleteRevision(id: string): Observable<IMessageResponse> {
@@ -48,13 +49,12 @@ export class BackendService {
   postGdpr(request: GdprModel): Observable<IMessageResponse> {
     let toSend = JSON.stringify(request, (k, v) => v === undefined ? null : v);
     return this.http.post<IMessageResponse>(
-      this.rootUrl, toSend
+      this.gdprUrl, toSend
     );
   }
 
   postRevision(request: RevisionModel): Observable<IMessageResponse> {
     let toSend = JSON.stringify(request, (k, v) => v === undefined ? null : v);
-    console.log(toSend);
     return this.http.post<IMessageResponse>(
       this.revisionUrl, toSend
     );
