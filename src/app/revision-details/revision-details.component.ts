@@ -19,6 +19,7 @@ export class RevisionDetailsComponent implements OnInit {
   ngOnInit(): void {
     this.model = this.config.data;
 
+    console.log(this.model.result.resultByCategories.map(a => a.pu));
     this.categoryData = {
       labels: this.model.result.resultByCategories.map(a => a.name),
       datasets: [

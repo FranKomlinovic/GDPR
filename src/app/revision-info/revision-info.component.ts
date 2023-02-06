@@ -49,6 +49,11 @@ export class RevisionInfoComponent implements OnInit {
   details() {
     this.dialogService.open(RevisionDetailsComponent, {
       data: this.model,
+      modal: true,
+      style: {'width' : '90%', 'height': '80%'},
+      contentStyle: {"overflow": "auto"},
+      baseZIndex: 10000,
+      maximizable: true,
       header: "Detalji"
     });
   }
@@ -63,6 +68,11 @@ export class RevisionInfoComponent implements OnInit {
 
     this.dialogService.open(RevisionFormComponent, {
       data: revisionModel,
+      modal: true,
+      style: {'max-width' : '90%'},
+      contentStyle: {"overflow": "auto"},
+      baseZIndex: 10000,
+      maximizable: true,
       header: "Ažuriraj reviziju"
     });
   }
@@ -77,13 +87,14 @@ export class RevisionInfoComponent implements OnInit {
   }
 
   delete() {
+    this.gdprViewComponent.revisionSpinner = true;
     this.backendService.deleteRevision(this.model.id).subscribe(a => {
       this.messageService.add({
         severity: 'success',
         summary: 'Uspjeh',
         detail: a.message
       });
-      this.gdprViewComponent.ngOnInit();
+      this.gdprViewComponent.getRevisions();
     });
   }
 }

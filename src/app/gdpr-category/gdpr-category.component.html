@@ -1,7 +1,7 @@
 <h1>{{category.categoryId + ". " + category.categoryName}}</h1>
 
 <div *ngFor="let question of category.questions">
-  <h2>{{question.id + ". " + question.question}}</h2>
+  <h2 pTooltip="{{question.requirement}}" tooltipPosition="bottom">{{question.id + ". " + question.question}}</h2>
 
   <p-triStateCheckbox [(ngModel)]="question.yesNo" label="Da/Ne"></p-triStateCheckbox>
   <br>

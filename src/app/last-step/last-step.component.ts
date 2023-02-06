@@ -13,11 +13,13 @@ import {ResultObjectModel} from "../models/gdpr/resultModel";
 })
 export class LastStepComponent implements OnInit {
 
+  spinner: boolean;
+
   constructor(public gdprComponent: GdprFormComponent,
               private backendService: BackendService,
               private messageService: MessageService,
               public ref: DynamicDialogRef,
-              private gdprViewComponent: GdprViewComponent) {
+              public gdprViewComponent: GdprViewComponent) {
   }
 
   ngOnInit(): void {
@@ -41,14 +43,14 @@ export class LastStepComponent implements OnInit {
   }
 
   submit() {
-    this.gdprViewComponent.spinner = true;
+    this.spinner = true;
     this.backendService
       .postGdpr(this.gdprComponent.request)
       .subscribe((a) => {
           this.messageService.add({severity: 'success', summary: 'Uspjeh', detail: a.message})
           this.ref.close();
-          this.gdprViewComponent.ngOnInit();
-          this.gdprViewComponent.spinner = false;
+          this.spinner = false;
+          this.gdprViewComponent.getGdprs();
         }
       );
   }

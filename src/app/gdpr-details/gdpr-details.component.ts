@@ -24,7 +24,7 @@ export class GdprDetailsComponent implements OnInit {
       labels: this.model.result.resultByCategories.map(a => a.name),
       datasets: [
         {
-          label: 'Područja',
+          label: 'Rezultat',
           backgroundColor: '#005b9f',
           data: this.model.result.resultByCategories.map(a => a.result)
         },
@@ -35,7 +35,7 @@ export class GdprDetailsComponent implements OnInit {
       labels: this.model.result.resultByFields.map(a => a.name),
       datasets: [
         {
-          label: 'Stavke',
+          label: 'Rezultat',
           backgroundColor: '#0C6B0D',
           data: this.model.result.resultByFields.map(a => a.result)
         },

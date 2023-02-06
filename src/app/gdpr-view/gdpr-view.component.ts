@@ -15,7 +15,8 @@ import {RevisionFormComponent} from "../revision-form/revision-form.component";
 })
 export class GdprViewComponent implements OnInit {
 
-  spinner: boolean;
+  gdprSpinner: boolean;
+  revisionSpinner: boolean;
   gdprModels: GdprModel[];
   revisionModels: RevisionModel[];
   display: boolean = false;
@@ -25,12 +26,24 @@ export class GdprViewComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.spinner = true;
+    this.getGdprs();
+    this.getRevisions();
+  }
+
+  getGdprs() {
+    this.gdprSpinner = true;
     this.backendService.getGdprByCompanyId().subscribe(a => {
       this.gdprModels = a
-      this.spinner = false;
+      this.gdprSpinner = false;
     });
-    this.backendService.getRevisionByCopmanyId().subscribe(a => this.revisionModels = a);
+  }
+
+  getRevisions() {
+    this.revisionSpinner = true;
+    this.backendService.getRevisionByCopmanyId().subscribe(a => {
+      this.revisionModels = a
+      this.revisionSpinner = false;
+    });
   }
 
   showGdprDialog() {
@@ -42,7 +55,7 @@ export class GdprViewComponent implements OnInit {
         this.dialogService.open(GdprFormComponent, {
           data: model,
           modal: true,
-          style: {'max-width' : '90%'},
+          style: {'max-width': '90%'},
           contentStyle: {"overflow": "auto"},
           baseZIndex: 10000,
           maximizable: true,

@@ -1,0 +1,646 @@
+[
+  {
+    "id": "5a5f35e3-1c5f-49c1-b542-7796e27782d5",
+    "categories": [
+      {
+        "categoryId": 1,
+        "categoryName": "Podizanje svijesti",
+        "questions": [
+          {
+            "id": "1.1",
+            "evidence": "Edukacije, mail",
+            "percentage": 80,
+            "question": "Jesu li svi zaposlenici upoznati s GDPR regulativom?",
+            "requirement": "Edukacija zaposlenika",
+            "topic": "Edukacija zaposlenika",
+            "yesNo": 1
+          },
+          {
+            "id": "1.2",
+            "percentage": 50,
+            "question": "Jesu li identificirani mogući raskoraci s regulativom?",
+            "requirement": "članak 28(3)",
+            "topic": "Raskoraci s regulativom",
+            "yesNo": 0
+          },
+          {
+            "id": "1.3",
+            "percentage": 20,
+            "question": "Vode li se zapisi o reviziji?",
+            "requirement": "članak 28(3)",
+            "topic": "Zapisi o reviziji",
+            "yesNo": 0
+          },
+          {
+            "id": "1.4",
+            "evidence": "Ugovor o obradi podataka",
+            "percentage": 90,
+            "question": "Jesu li treće stane koje obrađuju podatke usklađene s regulativom?",
+            "requirement": "članak 28(3)",
+            "topic": "Usklađenost trećih strana",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 2,
+        "categoryName": "Podatkovna revizija",
+        "questions": [
+          {
+            "id": "2.1",
+            "evidence": "Evidencija obrade/procedura prijave Evidencije osobnih podataka Grada Zagreba",
+            "percentage": 86,
+            "question": "Koji osobni podaci se pohranjuju?",
+            "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka.",
+            "topic": "Osobni podaci",
+            "yesNo": 1
+          },
+          {
+            "id": "2.2",
+            "evidence": "Evidencija obrade/procedura prijave Evidencije osobnih podataka Grada Zagreba",
+            "percentage": 100,
+            "question": "Ima li osjetljivih podataka? (podaci o djeci, zdravstveni podaci.. Članak 9)",
+            "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka.",
+            "topic": "Osjetljivi osobni podaci",
+            "yesNo": 1
+          },
+          {
+            "id": "2.3",
+            "evidence": "Evidencija obrade/procedura prijave Evidencije osobnih podataka Grada Zagreba",
+            "percentage": 100,
+            "question": "Od kuda se podaci prikupljaju?",
+            "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka.",
+            "topic": "Prikupljanje osobnih podataka",
+            "yesNo": 1
+          },
+          {
+            "id": "2.4",
+            "evidence": "Evidencija obrade/procedura prijave Evidencije osobnih podataka Grada Zagreba",
+            "percentage": 100,
+            "question": "Gdje se podaci spremaju?",
+            "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka.",
+            "topic": "Pohrana osobnih podataka",
+            "yesNo": 1
+          },
+          {
+            "id": "2.5",
+            "percentage": 0,
+            "question": "Jesu li podaci kriptirani/anonimizirani?",
+            "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka.",
+            "topic": "Zaštita podatka (kriptiranje, anonimizacija)",
+            "yesNo": 0
+          },
+          {
+            "id": "2.6",
+            "evidence": "Evidencija obrade/pravilnik",
+            "percentage": 100,
+            "question": "Kome podaci mogu biti otkriveni?",
+            "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka.",
+            "topic": "Otkrivanje podataka",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 3,
+        "categoryName": "Priopćavanje informacija o privatnosti",
+        "questions": [
+          {
+            "id": "3.1",
+            "evidence": "Pravilnik o zaštiti osobnih podataka",
+            "percentage": 100,
+            "question": "Što sadrži obavijest o privatnosti?",
+            "requirement": "GDPR regulativa zahtjeva obrazloženje pravne osnove za obradu podataka (članak 6)",
+            "topic": "Obavijest o privatnosti",
+            "yesNo": 1
+          },
+          {
+            "id": "3.2",
+            "evidence": "Uputa o pravima ispitanika",
+            "percentage": 100,
+            "question": "Je li u obavijesti o privatnosti uključen i GDPR",
+            "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka.",
+            "topic": "Obavijest o privatnosti i GDPR",
+            "yesNo": 1
+          },
+          {
+            "id": "3.3",
+            "evidence": "www.zagreb.hr",
+            "percentage": 100,
+            "question": "Nalazi li se obavijest o privatnosti na web sjedištu?",
+            "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka.",
+            "topic": "Dostupnost Obavijesti o privatnosti",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 4,
+        "categoryName": "Prava pojedinaca",
+        "questions": [
+          {
+            "id": "4.1",
+            "evidence": "Pravilnik o zaštiti osobnih podataka",
+            "percentage": 100,
+            "question": "Jesu li u obavijesti o privatnosti sadržana sva prava pojedinaca?",
+            "requirement": "GDPR dopušta pojedincima slijedeća prava:\n- prava na informiranost\n- pravo pristupa\n- pravo ispravka\n- pravo brisanja\n- pravo ograničenja obrade\n- pravo prijenosa\n- pravo prigovora\n- pravo odbijanja automatske obrade, profiliranja",
+            "topic": "Prava pojedinaca",
+            "yesNo": 1
+          },
+          {
+            "id": "4.2",
+            "evidence": "Pravilnik o zaštiti osobnih podataka",
+            "percentage": 100,
+            "question": "Je li obavijest o privatnosti ažurna?",
+            "requirement": "GDPR dopušta pojedincima slijedeća prava:\n- prava na informiranost\n- pravo pristupa\n- pravo ispravka\n- pravo brisanja\n- pravo ograničenja obrade\n- pravo prijenosa\n- pravo prigovora\n- pravo odbijanja automatske obrade, profiliranja",
+            "topic": "Ažuriranje obavijesti o privatnosti",
+            "yesNo": 1
+          },
+          {
+            "id": "4.3",
+            "evidence": "nema pravne osnove",
+            "percentage": 90,
+            "question": "Brišu li se osobni podaci?",
+            "requirement": "GDPR dopušta pojedincima slijedeća prava:\n- prava na informiranost\n- pravo pristupa\n- pravo ispravka\n- pravo brisanja\n- pravo ograničenja obrade\n- pravo prijenosa\n- pravo prigovora\n- pravo odbijanja automatske obrade, profiliranja",
+            "topic": "Brisanje osobnih podataka",
+            "yesNo": 0
+          },
+          {
+            "id": "4.4",
+            "evidence": "www.zagreb.hr",
+            "percentage": 80,
+            "question": "Pružate li podatke elektroničkim putem ili na neki drugi način?",
+            "requirement": "GDPR dopušta pojedincima slijedeća prava:\n- prava na informiranost\n- pravo pristupa\n- pravo ispravka\n- pravo brisanja\n- pravo ograničenja obrade\n- pravo prijenosa\n- pravo prigovora\n- pravo odbijanja automatske obrade, profiliranja",
+            "topic": "Način pristupa osobnim podacima",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 5,
+        "categoryName": "Zahtjev za pristupom",
+        "questions": [
+          {
+            "id": "5.1",
+            "percentage": 70,
+            "question": "Je li moguće ispuniti zaprimljeni zahtjev o pravima u definiranom vremenskom roku uz pružanje točnih informacija",
+            "requirement": "Prema GDPR regulativi rok je 30 dana.",
+            "topic": "Postupanje po zahtjevu",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 6,
+        "categoryName": "Pravna osnova",
+        "questions": [
+          {
+            "id": "6.1",
+            "evidence": "Evidencija obrade",
+            "percentage": 100,
+            "question": "Koja je pravna osonova za obradu podataka?",
+            "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)",
+            "topic": "Pravna osnova obrade podataka",
+            "yesNo": 1
+          },
+          {
+            "id": "6.2",
+            "evidence": "Nije primjenjivo",
+            "percentage": 100,
+            "question": "Imate li obavijesti o obradi podataka?",
+            "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)",
+            "topic": "Informiranje o obradi podataka",
+            "yesNo": 0
+          },
+          {
+            "id": "6.3",
+            "evidence": "Nije primjenjivo",
+            "percentage": 100,
+            "question": "Gdje se nalazi obavijest o obradi podataka?",
+            "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)",
+            "topic": "Lokacija obavijesti o obradi podataka",
+            "yesNo": 0
+          },
+          {
+            "id": "6.4",
+            "evidence": "Pravilnik o zaštiti osobnih podataka",
+            "percentage": 100,
+            "question": "Nalazi li se informacija o tome u Obavijesti o privatnosti?",
+            "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)",
+            "topic": "Obavijesti o privatnosti i obradi podataka",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 7,
+        "categoryName": "Privola",
+        "questions": [
+          {
+            "id": "7.1",
+            "evidence": "uputa službenika za zaštitu podatka",
+            "percentage": 46,
+            "question": "Je li napravljena revizija kako se traži, sprema i upravlja privolama?",
+            "requirement": "Privola mora biti dobrovoljna, potpisana bez prisile.\nPrivola mora biti specifična - mora jasno sadržavati što je privolom obuhvaćeno.\nPrivola mora na jednostavan način objašnjavati sve procesne aktivnosti i kako će se postupati s podacima.\nPristanak mora bit nedvosmislen.\nPrivola mora imati mogućnost povlačenja prema zahtjevu subjekta.\n",
+            "topic": "Revizija privola",
+            "yesNo": 0
+          },
+          {
+            "id": "7.2",
+            "evidence": "nije primjenjivo",
+            "percentage": 100,
+            "question": "Šalje li se privola prilikom pretplate na e-mail obavijesti?",
+            "requirement": "Privola mora biti dobrovoljna, potpisana bez prisile.\nPrivola mora biti specifična - mora jasno sadržavati što je privolom obuhvaćeno.\nPrivola mora na jednostavan način objašnjavati sve procesne aktivnosti i kako će se postupati s podacima.\nPristanak mora bit nedvosmislen.\nPrivola mora imati mogućnost povlačenja prema zahtjevu subjekta.\n",
+            "topic": "e-mail obavijesti i privola",
+            "yesNo": 0
+          },
+          {
+            "id": "7.3",
+            "evidence": "ured",
+            "percentage": 100,
+            "question": "Može li se dokazati pristanak?",
+            "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)",
+            "topic": "Dokazivanje pristanka na privolu",
+            "yesNo": 1
+          },
+          {
+            "id": "7.4",
+            "evidence": "uputa službenika za zaštitu podatka",
+            "percentage": 100,
+            "question": "Zadovoljava li privola GDPR standardu?",
+            "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)",
+            "topic": "Usklađenost privole s GDPR regulativom",
+            "yesNo": 1
+          },
+          {
+            "id": "7.5",
+            "percentage": 50,
+            "question": "Može li se na jednostavan način povući privola?",
+            "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)",
+            "topic": "Povlačenje privole",
+            "yesNo": 0
+          }
+        ]
+      },
+      {
+        "categoryId": 8,
+        "categoryName": "Djeca",
+        "questions": [
+          {
+            "id": "8.1",
+            "evidence": "Evidencija obrade",
+            "percentage": 50,
+            "question": "Prikupljaju li se podaci o djeci?",
+            "requirement": "GDPR zahtjeva posebnu zaštitu osobnih podataka o djeci (ispod 16 godina), uz obavezan pristanak roditelja. Obavijesti o privatnosti moraju biti razumljive i djeci.",
+            "topic": "Podaci o djeci",
+            "yesNo": 1
+          },
+          {
+            "id": "8.2",
+            "evidence": "Evidencija obrade",
+            "percentage": 50,
+            "question": "Je li potrebna posebna procedura roditeljskog pristanka?",
+            "requirement": "GDPR zahtjeva posebnu zaštitu osobnih podataka o djeci (ispod 16 godina), uz obavezan pristanak roditelja. Obavijesti o privatnosti moraju biti razumljive i djeci.",
+            "topic": "Roditeljski pristanak za maloljetnu djecu",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 9,
+        "categoryName": "Povreda podataka",
+        "questions": [
+          {
+            "id": "9.1",
+            "evidence": "Politika informacijske sigurnosti Grada Zagreba",
+            "percentage": 100,
+            "question": "Postoje li procedure za otkrivanje, izvještavanje i istragu povrede podataka?",
+            "requirement": "GDPR zahtjeva prijavu povrede podataka u roku od 72 sata od otkrivanja. ",
+            "topic": "Povreda podataka",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 10,
+        "categoryName": "Procjena učinka zaštite podataka",
+        "questions": [
+          {
+            "id": "10.1",
+            "evidence": "Procedura prijave evidencije osobnih podataka Grada Zagreba",
+            "percentage": 75,
+            "question": "Provodi li se procjena učinka zaštite podataka?",
+            "requirement": "Procjena učinka zaštite podataka propvodi se za one podatke kod kojih je utvrđena vjerojatnost postojanja viskog rizika za prava pojedinaca ukoliko budu otkriveni. Osiguranje sigurnosti podatka pri razvoju bilo kojeg projekta koji uključuje osobne podatke (prema članku 5)",
+            "topic": "Procjena učinka zaštite podataka",
+            "yesNo": 1
+          },
+          {
+            "id": "10.2",
+            "percentage": 50,
+            "question": "Princip \"Sigurnost podataka dizajnom\"",
+            "requirement": "Procjena učinka zaštite podataka propvodi se za one podatke kod kojih je utvrđena vjerojatnost postojanja viskog rizika za prava pojedinaca ukoliko budu otkriveni. Osiguranje sigurnosti podatka pri razvoju bilo kojeg projekta koji uključuje osobne podatke (prema članku 5)",
+            "topic": "Sigurnost podataka dizajnom",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 11,
+        "categoryName": "Službenik za zaštitu podatka",
+        "questions": [
+          {
+            "id": "11.1",
+            "evidence": "Odluka o imenovanju službenika za zaštitu osobnih podataka",
+            "percentage": 100,
+            "question": "Postoji li službenik za zaštitu podataka?",
+            "requirement": "GDPR regulativa zahtjeva postojanje Službenika za zaštitu osobnih podatka ukoliko se radi o tijelu javne vlasti, ili organizaciji koja redovno obrađuje velike količine osobnih podataka. ",
+            "topic": "Službenik za zaštitu podataka",
+            "yesNo": 1
+          },
+          {
+            "id": "11.2",
+            "evidence": "Odluka o imenovanju službenika za zaštitu osobnih podataka/opis radnog mjesta",
+            "percentage": 100,
+            "question": "Provjerava li službenik usklađenost s GDPR regulativom?",
+            "requirement": "GDPR regulativa zahtjeva postojanje Službenika za zaštitu osobnih podatka ukoliko se radi o tijelu javne vlasti, ili organizaciji koja redovno obrađuje velike količine osobnih podataka. ",
+            "topic": "Obveze službenika za zaštitu podataka",
+            "yesNo": 1
+          }
+        ]
+      },
+      {
+        "categoryId": 12,
+        "categoryName": "Prijenos između zemalja",
+        "questions": [
+          {
+            "id": "12.1",
+            "evidence": "nije primjenjivo",
+            "percentage": 100,
+            "question": "Surađujete li ili razmijenjujete osobne podatke s drugim zemljama unutar EU?",
+            "topic": "Prijenos podataka unutar EU",
+            "yesNo": 0
+          },
+          {
+            "id": "12.2",
+            "evidence": "nije primjenjivo",
+            "percentage": 100,
+            "question": "Surađujete li ili razmijenjujete osobne podatke s  zemljama izvan EU?",
+            "topic": "Prijenos podataka izvan EU",
+            "yesNo": 0
+          }
+        ]
+      }
+    ],
+    "companyId": "7712c177-a98b-44bd-96c0-fefe2e7de2fd",
+    "createdDate": "2023-02-06T13:46:18.861Z",
+    "gdprManagerName": "Fran Komlinović",
+    "result": {
+      "finalResult": 82.97222222222223,
+      "resultByCategories": [
+        {
+          "id": "1",
+          "name": "Podizanje svijesti",
+          "result": 60
+        },
+        {
+          "id": "2",
+          "name": "Podatkovna revizija",
+          "result": 81
+        },
+        {
+          "id": "3",
+          "name": "Priopćavanje informacija o privatnosti",
+          "result": 100
+        },
+        {
+          "id": "4",
+          "name": "Prava pojedinaca",
+          "result": 92.5
+        },
+        {
+          "id": "5",
+          "name": "Zahtjev za pristupom",
+          "result": 70
+        },
+        {
+          "id": "6",
+          "name": "Pravna osnova",
+          "result": 100
+        },
+        {
+          "id": "7",
+          "name": "Privola",
+          "result": 79.2
+        },
+        {
+          "id": "8",
+          "name": "Djeca",
+          "result": 50
+        },
+        {
+          "id": "9",
+          "name": "Povreda podataka",
+          "result": 100
+        },
+        {
+          "id": "10",
+          "name": "Procjena učinka zaštite podataka",
+          "result": 62.5
+        },
+        {
+          "id": "11",
+          "name": "Službenik za zaštitu podatka",
+          "result": 100
+        },
+        {
+          "id": "12",
+          "name": "Prijenos između zemalja",
+          "result": 100
+        }
+      ],
+      "resultByFields": [
+        {
+          "id": "1.1",
+          "name": "Edukacija zaposlenika",
+          "result": 80
+        },
+        {
+          "id": "1.2",
+          "name": "Raskoraci s regulativom",
+          "result": 50
+        },
+        {
+          "id": "1.3",
+          "name": "Zapisi o reviziji",
+          "result": 20
+        },
+        {
+          "id": "1.4",
+          "name": "Usklađenost trećih strana",
+          "result": 90
+        },
+        {
+          "id": "2.1",
+          "name": "Osobni podaci",
+          "result": 86
+        },
+        {
+          "id": "2.2",
+          "name": "Osjetljivi osobni podaci",
+          "result": 100
+        },
+        {
+          "id": "2.3",
+          "name": "Prikupljanje osobnih podataka",
+          "result": 100
+        },
+        {
+          "id": "2.4",
+          "name": "Pohrana osobnih podataka",
+          "result": 100
+        },
+        {
+          "id": "2.5",
+          "name": "Zaštita podatka (kriptiranje, anonimizacija)",
+          "result": 0
+        },
+        {
+          "id": "2.6",
+          "name": "Otkrivanje podataka",
+          "result": 100
+        },
+        {
+          "id": "3.1",
+          "name": "Obavijest o privatnosti",
+          "result": 100
+        },
+        {
+          "id": "3.2",
+          "name": "Obavijest o privatnosti i GDPR",
+          "result": 100
+        },
+        {
+          "id": "3.3",
+          "name": "Dostupnost Obavijesti o privatnosti",
+          "result": 100
+        },
+        {
+          "id": "4.1",
+          "name": "Prava pojedinaca",
+          "result": 100
+        },
+        {
+          "id": "4.2",
+          "name": "Ažuriranje obavijesti o privatnosti",
+          "result": 100
+        },
+        {
+          "id": "4.3",
+          "name": "Brisanje osobnih podataka",
+          "result": 90
+        },
+        {
+          "id": "4.4",
+          "name": "Način pristupa osobnim podacima",
+          "result": 80
+        },
+        {
+          "id": "5.1",
+          "name": "Postupanje po zahtjevu",
+          "result": 70
+        },
+        {
+          "id": "6.1",
+          "name": "Pravna osnova obrade podataka",
+          "result": 100
+        },
+        {
+          "id": "6.2",
+          "name": "Informiranje o obradi podataka",
+          "result": 100
+        },
+        {
+          "id": "6.3",
+          "name": "Lokacija obavijesti o obradi podataka",
+          "result": 100
+        },
+        {
+          "id": "6.4",
+          "name": "Obavijesti o privatnosti i obradi podataka",
+          "result": 100
+        },
+        {
+          "id": "7.1",
+          "name": "Revizija privola",
+          "result": 46
+        },
+        {
+          "id": "7.2",
+          "name": "e-mail obavijesti i privola",
+          "result": 100
+        },
+        {
+          "id": "7.3",
+          "name": "Dokazivanje pristanka na privolu",
+          "result": 100
+        },
+        {
+          "id": "7.4",
+          "name": "Usklađenost privole s GDPR regulativom",
+          "result": 100
+        },
+        {
+          "id": "7.5",
+          "name": "Povlačenje privole",
+          "result": 50
+        },
+        {
+          "id": "8.1",
+          "name": "Podaci o djeci",
+          "result": 50
+        },
+        {
+          "id": "8.2",
+          "name": "Roditeljski pristanak za maloljetnu djecu",
+          "result": 50
+        },
+        {
+          "id": "9.1",
+          "name": "Povreda podataka",
+          "result": 100
+        },
+        {
+          "id": "10.1",
+          "name": "Procjena učinka zaštite podataka",
+          "result": 75
+        },
+        {
+          "id": "10.2",
+          "name": "Sigurnost podataka dizajnom",
+          "result": 50
+        },
+        {
+          "id": "11.1",
+          "name": "Službenik za zaštitu podataka",
+          "result": 100
+        },
+        {
+          "id": "11.2",
+          "name": "Obveze službenika za zaštitu podataka",
+          "result": 100
+        },
+        {
+          "id": "12.1",
+          "name": "Prijenos podataka unutar EU",
+          "result": 100
+        },
+        {
+          "id": "12.2",
+          "name": "Prijenos podataka izvan EU",
+          "result": 100
+        }
+      ]
+    },
+    "updatedDate": "2023-02-06T14:10:22.628Z"
+  }
+]

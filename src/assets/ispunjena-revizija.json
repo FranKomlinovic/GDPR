@@ -1,0 +1,657 @@
+[
+  {
+    "id": "7b1fa1bd-464d-4414-9129-2febe5264978",
+    "categories": [
+      {
+        "categoryId": 1,
+        "categoryName": "Upravljanje odgovornošću",
+        "questions": [
+          {
+            "id": "1.1",
+            "question": "Održavate li sveobuhvatnu politiku zaštite podataka koja pokazuje usklađenost sa zahtjevima, a koji uključuju obradu, privatnost dizajnom i vođenje evidencije?",
+            "reference": "5(2)",
+            "response": "PU"
+          },
+          {
+            "id": "1.2",
+            "question": "Obučavate li sve zaposlenike o GDPR zahtjevima i načelima - uključujući aktivnosti obrade, kontrole, procjene utjecaja na privatnost, revizije, prava ispitanika, liniju odgovornosti, privatnost prema dizajnu  i potencijalne posljedice nepridržavanja propisanih mjera?",
+            "reference": "5(2)",
+            "response": "PU"
+          },
+          {
+            "id": "1.3",
+            "question": "Provodite li redovita testiranja o poznavanju GDPR regulative i vodite li evidenciju o osposobljavanju zaposlenika koji rukuju osobnim podacima?",
+            "reference": "5(2)",
+            "response": "PU"
+          },
+          {
+            "id": "1.4",
+            "question": "Ako vam je potreban službenik za zaštitu podataka (DPO), ima li on ili ona ovlaštenje za prijavljivanje do najviših instatnci u organizaciji, te ima li potrebne resurse i neovisnost za osiguravanje poštivanja GDPR-a i drugih zakona o zaštiti podataka?",
+            "reference": "7(1)\n38(1-4,6)",
+            "response": "PU"
+          },
+          {
+            "id": "1.5",
+            "question": "Je li DPO vezan povjerljivošću u vezi s obavljanjem svojih zadataka?",
+            "reference": "38(5)",
+            "response": "PU"
+          },
+          {
+            "id": "1.6",
+            "question": "Ako DPO ima druge odgovornosti, jesu li one procijenjene kako bi se izbjegao sukob interesa?",
+            "reference": "38(6)",
+            "response": "PU"
+          },
+          {
+            "id": "1.7",
+            "question": "Ima li DPO znanja i sposobnost za ispunjavanje zadataka navedenih u članku 39?",
+            "reference": "37(5)\n 39(1,2)",
+            "response": "PU"
+          },
+          {
+            "id": "1.8",
+            "question": "Jeste li učinili kontakt podatke DPO-a interno i  javno dostupnima?",
+            "reference": "37(7)",
+            "response": "PU"
+          }
+        ]
+      },
+      {
+        "categoryId": 2,
+        "categoryName": "Principi obrade",
+        "questions": [
+          {
+            "id": "2.1",
+            "question": "Održavate li politike upravljanja zapisima i čuvanja podataka?",
+            "reference": "24(1,2,3)",
+            "response": "UT"
+          },
+          {
+            "id": "2.2",
+            "question": "Jeste li dokumentirali principe koji opravdavaju razdoblja zadržavanja?",
+            "reference": "5(1)",
+            "response": "PU"
+          },
+          {
+            "id": "2.3",
+            "question": "Obrađuju li se osobni podaci zakonito, pošteno i na transparentan način?",
+            "reference": "5(1) \n6(1,2,3,4)",
+            "response": "PU"
+          },
+          {
+            "id": "2.4",
+            "question": "Prikupljaju li se osobni podaci u određene, izričite i legitimne svrhe, i kao takvi se dalje se ne obrađuju na način koji nije inicijalno određen?",
+            "reference": "5(1)",
+            "response": "PU"
+          },
+          {
+            "id": "2.5",
+            "question": "Jesu li osobni podaci relevantni, ograničeni i minimizirani samo na potreban opseg u odnosu na svrhu za koju se obrađuju?",
+            "reference": "5(1)",
+            "response": "UT"
+          },
+          {
+            "id": "2.6",
+            "question": "Jesu li osobni podaci točni i ažurni? Poduzimaju li se svi razumni koraci kako bi se osiguralo da se netočni osobni podaci brišu i ispravljaju bez odgode?",
+            "reference": "5(1)",
+            "response": "UT"
+          },
+          {
+            "id": "2.7",
+            "question": "Čuvaju li se osobni podaci samo onoliko dugo koliko je potrebno za svrhe u koje se obrađuju?",
+            "reference": "5(1)",
+            "response": "UT"
+          },
+          {
+            "id": "2.8",
+            "question": "Obrađuju li se osobni podaci na način koji osigurava odgovarajuću razinu sigurnosti osobnih podataka, uključujući zaštitu od neovlaštene ili nezakonite obrade, protiv slučajnih gubitaka, uništenja ili oštećenja, a koristeći odgovarajuće tehničke ili organizacijske mjere?",
+            "reference": "5(1)",
+            "response": "PU"
+          },
+          {
+            "id": "2.9",
+            "question": "Jeste li jasno identificirali, detaljno opisali, dokumentirali i ažurirali svrhu/svrhe obrade osobnih podataka?",
+            "reference": "5(1)",
+            "response": "PU"
+          },
+          {
+            "id": "2.10",
+            "question": "Jeste li primijenili odgovarajuće tehničke ili organizacijske mjere kako biste to osigurali sigurnost osobnih podataka, uključujući zaštitu od neovlaštene obrade, slučajni gubitak, uništenje ili oštećenje?",
+            "reference": "5(1) \n24(1,2)",
+            "response": "PU"
+          },
+          {
+            "id": "2.11",
+            "question": "Ako obrađujete posebne kategorije osjetljivih podataka (otkrivajući rasno ili etničko podrijetlo, politička mišljenja, vjerska ili filozofska uvjerenja, članstvo u sindikatima, genetska podaci, biometrijski podaci za jedinstvenu identifikaciju fizičke osobe, podaci koji se tiču ​​zdravlja ili podaci koji se tiču ​​spolnog života ili seksualne orijentacije fizičke osobe), jesu li osigurani uvjeti iz članka 9. stavka 2.?",
+            "reference": "9(1,2)",
+            "response": "PU"
+          },
+          {
+            "id": "2.12",
+            "question": "Ako obrađujete osobne podatke koji se odnose na kaznene osude i kaznena djela ili s tim u vezi sigurnosne mjere temeljene na članku 6. stavku 1., provode li se pod nadzorom službene osobe tijelo ili ovlašteno zakonom sindikata ili države članice?",
+            "reference": "10",
+            "response": "NP"
+          }
+        ]
+      },
+      {
+        "categoryId": 3,
+        "categoryName": "Privatnost prema dizajnu i zadanim postavkama",
+        "questions": [
+          {
+            "id": "3.1",
+            "question": "Osiguravate li uspostavljenu proceduru za ugrađivanje privatnosti prema dizajnu i zadanim postavkama, primjerice u projektima, koji uključuju mjere za osiguravanje minimiziranja podataka, pseudonimizaciju, šifriranje i obradu samo onih osobnih podataka koji su potrebni za određenu svrhu u koju se podaci odrađuju?",
+            "reference": "25(1,2) \n32(1,4)",
+            "response": "UT"
+          },
+          {
+            "id": "3.2",
+            "question": "Postoji li ograničenje pristupu osobnim podacima samo onim zaposlenicima koji ih obrađuju",
+            "reference": "24(1)\n25(1,2)",
+            "response": "PU"
+          },
+          {
+            "id": "3.3",
+            "question": "Da li periodički testirate sustave i usluge kako biste osigurali  povjerljivost, integritet, raspoloživost i elastičnost?",
+            "reference": "32(1)",
+            "response": "UT"
+          },
+          {
+            "id": "3.4",
+            "question": "Osiguravate li proceduru obnove sustava i usluga u slučaju fizičkih ili tehničkih incidenata?",
+            "reference": "32(1,2)",
+            "response": "PU"
+          },
+          {
+            "id": "3.5",
+            "question": "Provodite li postupak za redovito testiranje, procjenu i ocjenu učinkovitost tehničkih i organizacijskih mjera za osiguranje sigurnosti obrade?",
+            "reference": "32(1,2)",
+            "response": "UT"
+          },
+          {
+            "id": "3.6",
+            "question": "Primjenjujete li neke metode pohrane i obrade  (npr. redakcije - kombiniranje podataka)na fizičke kopije osobnih podataka?",
+            "reference": "24(1,2) \n25(1,2)",
+            "response": "NP"
+          }
+        ]
+      },
+      {
+        "categoryId": 4,
+        "categoryName": "Procjena utjecaja zaštite podataka",
+        "questions": [
+          {
+            "id": "4.1",
+            "question": "Primjenjujete li i imate li dokumentiran postupak uništavanja podataka kada oni više nisu potrebni i poduzimate li korake kako biste osigurali da se zaposlenici pridržavaju takvih mjera?",
+            "reference": "24(1,2) \n25(1,2)",
+            "response": "UT"
+          },
+          {
+            "id": "4.2",
+            "question": "Provodite li procjenu utjecaja na zaštitu podataka (DPIA) kada god se koristi nova tehnologija koja će vjerojatno rezultirati visokim rizikom za subjekte podataka, kada  će donešene odluke biti rezultat automatizirane obrade a koja  ima pravni učinak, kada obrada uključuje posebne kategorije podataka iz članka 9. stavka 1. ili 10. ?",
+            "reference": "35(1)",
+            "response": "UT"
+          },
+          {
+            "id": "4.3",
+            "question": "Je li DPO uvijek uključen u provođenje DPIA-e?",
+            "reference": "35(2)",
+            "response": "PU"
+          },
+          {
+            "id": "4.4",
+            "question": "Sadrži li DPIA sustavni opis predviđene obrade, svrhe obrade, procjene nužnosti i udjela obrade u odnosu na svrhe, procjenu rizika za prava i slobode subjekata podataka i mjere predviđene za rješavanje rizika, kao što su zaštitne mjere i sigurnosne mjere?",
+            "reference": "35(7)",
+            "response": "PU"
+          },
+          {
+            "id": "4.5",
+            "question": "Tražite li, prema potrebi, stavove subjekata podataka ili njihovih predstavnika za namjeravanu obradu?",
+            "reference": "35(9)",
+            "response": "NP"
+          },
+          {
+            "id": "4.6",
+            "question": "Imate li uspostavljen postupak za otkrivanje promjena u rizicima - i revidirate li DPIA kod svake  promijene rizika?",
+            "reference": "35(11)",
+            "response": "NU"
+          },
+          {
+            "id": "4.7",
+            "question": "Jesu li ublaženi rizici koji proizlaze iz svakog DPIA-a?",
+            "reference": "36(1,2)",
+            "response": "PU"
+          }
+        ]
+      },
+      {
+        "categoryId": 5,
+        "categoryName": "Evidencija obrade",
+        "questions": [
+          {
+            "id": "5.1",
+            "question": "Kada se rizici ne mogu umanjiti, kontaktirate li nadzorno tijelo s popisom koji sadrži  odgovornosti kontrolora i izvršitelja, svrhu i sredstva kojima se namjerava izvršiti obrada, mjere i zaštitne mjere za zaštitu subjekata podataka, kontakt pdatke DPO-a, DPIA i/ili bilo koje druge tražene informacije?",
+            "reference": "36(3)",
+            "response": "PU"
+          },
+          {
+            "id": "5.2",
+            "question": "Ako ste voditelj obrade koji zapošljava više od 250 ljudi ili obrađujete vrste podataka navedene u članku 30. stavku 5., vodite li evidenciju o aktivnostima obrade koje sadrže ime i podatke za kontakt voditelja obrade i DPO-a, svrhu obrade, opis kategorija podataka i kategorija osobnih podataka, kategorije primatelja kojima su osobni podaci otkriveni ili će biti otkriveni, međunarodni prijenosi podataka, vremenska ograničenja za brisanje podataka i opis implementiranih tehničkih i organizacijskih sigurnosnih mjera?",
+            "reference": "30(1,3,5)",
+            "response": "PU"
+          },
+          {
+            "id": "5.3",
+            "question": "Ako ste izvršitelj obrade koji zapošljava više od 250 ljudi ili obrađujete vrste podataka navedene u članku 30. stavku 5., vodite li evidenciju o aktivnostima obrade koje sadrže ime i podatke za kontakt izvršitelja obrade i DPO-a, opis kategorija podataka koje se izvršavaju u ime voditelja obrade, međunarodni prijenosi podataka i opis implementiranih tehničkih i organizacijskih sigurnosnih mjera?",
+            "reference": "30(2,3,5)",
+            "response": "PU"
+          }
+        ]
+      },
+      {
+        "categoryId": 6,
+        "categoryName": "Prava subjekta podataka",
+        "questions": [
+          {
+            "id": "6.1",
+            "question": "Osiguravate li da se evidencija o aktivnostima obrade vodi u pisanom obliku i da se može po potrebi dati na raspolaganje nadzornom tijelu na zahtjev?",
+            "reference": "30(3,4)\n 31",
+            "response": "PU"
+          },
+          {
+            "id": "6.2",
+            "question": "Ako subjekt podataka ostvaruje pravo pristupa, osiguravate li  mu pristup prema stavkama navedenim u članku 15. stavku 1.?",
+            "reference": "15(1,2,3,4)",
+            "response": "PU"
+          },
+          {
+            "id": "6.3",
+            "question": "Održavate li postupke za ispravljanje i popunjavanje netočnih osobnih podataka ?",
+            "reference": "16",
+            "response": "UT"
+          },
+          {
+            "id": "6.4",
+            "question": "Prilikom zahtjeva subjekta za brisanjem osobnih podataka poduzimate li sve razumne korake za brisanje svih podataka, veza i kopija bez nepotrebnog odgađanja prema članaku 17 (1)?",
+            "reference": "17(1,2,3)",
+            "response": "PU"
+          },
+          {
+            "id": "6.5",
+            "question": "Ako se pobija točnost osobnih podataka, ograničavate li obradu dok se ne  omogući provjera točnosti?",
+            "reference": "18(1,2)",
+            "response": "NU"
+          },
+          {
+            "id": "6.6",
+            "question": "Ako obrada više nije potrebna ili zakonita, imate li postupak koji omogućuje ograničavanje obrade na zahtjev subjekata podataka?",
+            "reference": "18(1,2)",
+            "response": "NP"
+          },
+          {
+            "id": "6.7",
+            "question": "Osiguravate li informiranje subjekata podataka kada se ograničava obrada prije nego li se izvrši ukidanje ograničenja?",
+            "reference": "18(3)",
+            "response": "NP"
+          },
+          {
+            "id": "6.8",
+            "question": "Obavještavate li sve izvršitelje i ostale primatelje osobnih podataka o ispravcima, brisanju i ograničenjima obrade?",
+            "reference": "19",
+            "response": "PU"
+          },
+          {
+            "id": "6.9",
+            "question": "Kada subjekt podataka ostvaruje svoje pravo na prenosivost podataka, prenosite li podatke drugom voditelju obrade bez zapreka, automatiziranim sredstvima, te u zajedničkom i strojno čitljivom formatu?",
+            "reference": "20(1,2)",
+            "response": "NP"
+          },
+          {
+            "id": "6.10",
+            "question": "Tamo gdje se subjekti podataka protive njihovoj obradi za izravni marketing  da li u tom slučaju više ne obrađujete njihove podatke?",
+            "reference": "21(2,3,4)",
+            "response": "NP"
+          },
+          {
+            "id": "6.11",
+            "question": "Tamo gdje se subjekti podataka protive njihovoj obradi radi istraživanja ili u službene svrhe, više ne obrađujete njihove podatke osim ako ne možete predstaviti uvjerljive legitimne osnove?",
+            "reference": "21(1,6)",
+            "response": "PU"
+          }
+        ]
+      },
+      {
+        "categoryId": 7,
+        "categoryName": "Privola i obavijesti",
+        "questions": [
+          {
+            "id": "7.1",
+            "question": "Osiguravate li da subjekti podataka imaju pravo da ne budu pravno izloženi  zbog izvršenja neke automatizirane obrade?",
+            "reference": "22(1,2,3,4)",
+            "response": "PU"
+          },
+          {
+            "id": "7.2",
+            "question": "Možete li dokazati da su subjekti podataka pristali na obradu njihovih podataka?",
+            "reference": "7(1)",
+            "response": "PU"
+          },
+          {
+            "id": "7.3",
+            "question": "Mogu li se pitanja za suglasnost jasno razlikovati od ostalih pitanja, jesu li napisana  u razumljivom obliku i  nedvosmislenim i  jasnim jezikom?",
+            "reference": "7(2)",
+            "response": "PU"
+          },
+          {
+            "id": "7.4",
+            "question": "Da li se od subjekata podataka traži pozitivna prijava (bez već predefiniranog i naznačenog okvira u prijavi) prema članku  32?",
+            "reference": "7(1,2)",
+            "response": "PU"
+          },
+          {
+            "id": "7.5",
+            "question": "Imaju li subjekti podataka pravo povući pristanak u bilo kojem trenutku - i povlači se pristanak na jednostavan način kao i prilikom davanja pristanka?",
+            "reference": "7(3)",
+            "response": "PU"
+          },
+          {
+            "id": "7.6",
+            "question": "Ako se obrađuju podaci subjekata mlađih od 16 godina, daje li se pristanak  koji je odobrio nositelj roditeljske odgovornosti - i čine li se razumni napori za potvrdu takvog pristanka?",
+            "reference": "8(1,2)",
+            "response": "PU"
+          },
+          {
+            "id": "7.7",
+            "question": "Jesu li obavijesti i politike o privatnosti jasno pružene subjektima podataka na uvid  s naznačenim voditeljem obrade i kontakt informacijama o DPO-u, svrsi obrade, pravnoj osnovi za obradu, informacije o primateljima osobnih podataka, međunarodni prijenosima, razdoblju čuvanja podataka i o pravima subjekata?",
+            "reference": "13(1,2) \n14(1,2)",
+            "response": "PU"
+          },
+          {
+            "id": "7.8",
+            "question": "Kada se podaci ne prikupljaju direktno od subjekata, evidentirate li izvore podrijetla takvih podatka i jesu li takve informacije\njavno dostupne?",
+            "reference": "14(2)",
+            "response": "PU"
+          },
+          {
+            "id": "7.9",
+            "question": "Daju li se obavijesti i politike o privatnosti subjektima podataka u trenutku prikupljanja podataka ili u roku od mjesec dana kada takvi podaci nisu prikupljeni od subjekata podataka?",
+            "reference": "13(1,2)\n14(3)",
+            "response": "NP"
+          },
+          {
+            "id": "7.10",
+            "question": "Jesu li obavijesti i politike o privatnosti pružene subjektima podataka prije daljnje obrade u slučaju kada subjekti prethodno nisu bili obaviješteni?",
+            "reference": "13(3,4)\n14(4,5)",
+            "response": "NP"
+          },
+          {
+            "id": "7.11",
+            "question": "Jesu li sva komunikacija sa subjektima podataka pružena u pisanom obliku na jasan, sažet način i transparentnim jezikom?",
+            "reference": "12(1)",
+            "response": "PU"
+          },
+          {
+            "id": "7.12",
+            "question": "Tamo gdje se ne mogu dostaviti informacije o poduzetim radnjama temeljene na pravima subjekta podataka (članak 15-22) za dostavom u roku od mjesec dana od primitka, obavještavate li subjekte podataka o potrebnom produženju roka s navedenim razlogom odgode i rokom ne dužim od dva mjeseca?",
+            "reference": "12(3)",
+            "response": "PU"
+          },
+          {
+            "id": "7.13",
+            "question": "Ako ne poduzmete mjere prema zahtjevu subjekta podataka, obavještavate li subjekt s navođenjem  razloga za nepoduzimanje radnje, bez odgode i u roku od mjesec dana od primitka  podrazumijevajući mogućnosti subjekta za podnošenje žalbi nadzornom tijelu ili tražeći pravni lijek?",
+            "reference": "12(4)",
+            "response": "PU"
+          },
+          {
+            "id": "7.14",
+            "question": "Jesu li zahtjevi za informacijama besplatni, osim ako voditelj obrade ne dokaže zahtjev neutemeljenim ili pretjeranim?",
+            "reference": "12(5)",
+            "response": "PU"
+          }
+        ]
+      },
+      {
+        "categoryId": 8,
+        "categoryName": "Upravljanje kršenjima podataka",
+        "questions": [
+          {
+            "id": "8.1",
+            "question": "Imate li uspostavljene obavijesti,  pravila i postupke o incidentima nastalih zbog kršenja pravila ?",
+            "reference": "24(1,2,3)\n33(1,2,3,4)\n34(1,2,3)",
+            "response": "PU"
+          },
+          {
+            "id": "8.2",
+            "question": "Jesu li sigurnosne mjere (npr. sigurnosne kopije, pseudonimizacija, šifriranje, testiranje) implementirane i primjerene rizicima podataka?",
+            "reference": "32(1)",
+            "response": "UT"
+          },
+          {
+            "id": "8.3",
+            "question": "Imate li ažuran plan odgovora na povredu podataka?",
+            "reference": "33(1,2,3,4)",
+            "response": "UT"
+          },
+          {
+            "id": "8.4",
+            "question": "Istražujete li i poduzimate li korektivne mjere za sve povrede osobnih podataka, bez obzira na veličinu ili opseg kršenja?",
+            "reference": "33(1)",
+            "response": "PU"
+          },
+          {
+            "id": "8.5",
+            "question": "Da li prijavljujete POVREDE  prema nadzornom tijelu u roku od 72 sata u slučajevima koji mogu dovesti do rizika za subjekte podataka, uključujući podatke o kategoriji podataka, broju evidencije podataka, kontaktnim podacima DPO-a,  naznakom vjerojatne posljedice kršenja podataka i predložene mjere ili poduzete akcije radi rješavanja kršenja?",
+            "reference": "33(1,3)",
+            "response": "PU"
+          },
+          {
+            "id": "8.6",
+            "question": "Ako ste izvršitelj, obavještavate li voditelja obrade, po saznanju,  bez nepotrebnog odgađanja o povredi podataka?",
+            "reference": "33(2)",
+            "response": "PU"
+          },
+          {
+            "id": "8.7",
+            "question": "Vodite li evidenciju poovreda podataka, uključujući podatke povezane s povredom, učinke povrede i poduzete popravne radnje?",
+            "reference": "33(5)",
+            "response": "PU"
+          },
+          {
+            "id": "8.8",
+            "question": "Komunicirate li povrede podatka s pogođenim subjektima bez nepotrebnog odgađanja na  jasnom i razumljivom jeziku?",
+            "reference": "34(1,2)",
+            "response": "PU"
+          }
+        ]
+      },
+      {
+        "categoryId": 9,
+        "categoryName": "Izvršitelji",
+        "questions": [
+          {
+            "id": "9.1",
+            "question": "Održavate li politike i postupke za ugovaranje i provođenje radova s podizvršiteljima?",
+            "reference": "24(1,2,3)",
+            "response": "PU"
+          },
+          {
+            "id": "9.2",
+            "question": "Koristite li samo one izvršitelje koji osiguravaju zaštitu prava subjekata podataka korištenjem odgovarajućih tehničkih i organizacijskih mjera?",
+            "reference": "28(1)",
+            "response": "PU"
+          },
+          {
+            "id": "9.3",
+            "question": "Ako ste izvršitelj, stupate li u kontakt s drugim izvršiteljima bez prethodnog  pismenog ovlaštenja voditelja obrade?",
+            "reference": "28(2)",
+            "response": "PU"
+          },
+          {
+            "id": "9.4",
+            "question": "Imaju li svi izvršitelji ugovor kojim utvrđujete predmet obrada, trajanje obrade, prirodu i svrhu obrade, vrstu osobnih podataka i kategorije subjekata podataka, te obveze i prava voditelja obrade?",
+            "reference": "28(3)",
+            "response": "UT"
+          },
+          {
+            "id": "9.5",
+            "question": "Je li ugovori i sporazumi o razini usluga s izvršiteljima navode restrikcije za prijenos  podatke između drugih zemalja, te osigurava li se povjerljivost od osoba koje obrađuju osobne podatke, osigurava li se brisanje ili vraćanje osobnih podataka voditelju obrade po završetku izvršavanja usluga i imaju  li izvršitelji  dopuštenje za pružanje podataka revizorima po zahtjevu, te uključuju li sve sigurnosne mjere iz članka 32.?",
+            "reference": "28(3)",
+            "response": "PU"
+          },
+          {
+            "id": "9.6",
+            "question": "Osiguravaju li izvršitelji zaštitu podataka dizajnom u svim aktivnostima obrade?",
+            "reference": "25(1)\n28(1)",
+            "response": "PU"
+          }
+        ]
+      },
+      {
+        "categoryId": 10,
+        "categoryName": "Prijenos podataka",
+        "questions": [
+          {
+            "id": "10.1",
+            "question": "Kad prenosite ili otkrivate osobne podatke, šifrirate li i prenosite samo podatke koji su nužni?",
+            "reference": "32(1)",
+            "response": "UT"
+          },
+          {
+            "id": "10.2",
+            "question": "Koristite li sigurne metode prijenosa podataka za sve komunikacije (npr. e-poštu, datoteke, prijenose, obrasce web mjesta, plaćanja)?",
+            "reference": "32(1)",
+            "response": "PU"
+          },
+          {
+            "id": "10.3",
+            "question": "Jeste li identificirali sve međunarodne tokove podataka i mehanizme izvoza?",
+            "reference": "44",
+            "response": "PU"
+          },
+          {
+            "id": "10.4",
+            "question": "Je li Komisija odobrila međunarodni prijenos podataka (članak 45.) ili je li na odgovarajući način zaštićen uz očuvanje prava subjekata(članak 46.)?",
+            "reference": "45(1)\n46(1,2)",
+            "response": "NP"
+          },
+          {
+            "id": "10.5",
+            "question": "Provjeravate li redovito službene publikacije Europske unije ili Komisije zbog povlačenja i promjena ovlaštenja za prijenos podataka?",
+            "reference": "45(8)",
+            "response": "NP"
+          },
+          {
+            "id": "10.6",
+            "question": "Jesu li odgovarajuće zaštitne mjere za prijenos podataka predviđene ugovornim klauzulama ili odredbama umetnutima u administrativne aranžmane?",
+            "reference": "46(3)",
+            "response": "NP"
+          },
+          {
+            "id": "10.7",
+            "question": "Kada se oslanjate na obvezujuća korporativna pravila za prijenos podataka, osiguravate li da su oni pravno obvezujući i primjenjuju se i provode od strane svih članova, uz izričito dodjeljivanje izvršnih prava na podatke subjekata s obzirom na obradu njihovih osobnih podataka?",
+            "reference": "47(1)",
+            "response": "PU"
+          },
+          {
+            "id": "10.8",
+            "question": "Određuju li obvezujuća korporativna pravila sve stavke u članku 47. stavku 2.?",
+            "reference": "47(1,2)",
+            "response": "PU"
+          }
+        ]
+      }
+    ],
+    "companyId": "7712c177-a98b-44bd-96c0-fefe2e7de2fd",
+    "createdDate": "2023-02-06T15:23:38.179Z",
+    "gdprManagerName": "Fran Komlinović",
+    "result": {
+      "np": 12,
+      "nu": 2,
+      "pu": 55,
+      "resultByCategories": [
+        {
+          "id": "1",
+          "name": "Upravljanje odgovornošću",
+          "np": 0,
+          "nu": 0,
+          "pu": 8,
+          "ut": 0
+        },
+        {
+          "id": "2",
+          "name": "Principi obrade",
+          "np": 1,
+          "nu": 0,
+          "pu": 7,
+          "ut": 4
+        },
+        {
+          "id": "3",
+          "name": "Privatnost prema dizajnu i zadanim postavkama",
+          "np": 1,
+          "nu": 0,
+          "pu": 2,
+          "ut": 3
+        },
+        {
+          "id": "4",
+          "name": "Procjena utjecaja zaštite podataka",
+          "np": 1,
+          "nu": 1,
+          "pu": 3,
+          "ut": 2
+        },
+        {
+          "id": "5",
+          "name": "Evidencija obrade",
+          "np": 0,
+          "nu": 0,
+          "pu": 3,
+          "ut": 0
+        },
+        {
+          "id": "6",
+          "name": "Prava subjekta podataka",
+          "np": 4,
+          "nu": 1,
+          "pu": 5,
+          "ut": 1
+        },
+        {
+          "id": "7",
+          "name": "Privola i obavijesti",
+          "np": 2,
+          "nu": 0,
+          "pu": 12,
+          "ut": 0
+        },
+        {
+          "id": "8",
+          "name": "Upravljanje kršenjima podataka",
+          "np": 0,
+          "nu": 0,
+          "pu": 6,
+          "ut": 2
+        },
+        {
+          "id": "9",
+          "name": "Izvršitelji",
+          "np": 0,
+          "nu": 0,
+          "pu": 5,
+          "ut": 1
+        },
+        {
+          "id": "10",
+          "name": "Prijenos podataka",
+          "np": 3,
+          "nu": 0,
+          "pu": 4,
+          "ut": 1
+        }
+      ],
+      "ut": 14
+    },
+    "updatedDate": "2023-02-06T15:23:38.223Z"
+  }
+]

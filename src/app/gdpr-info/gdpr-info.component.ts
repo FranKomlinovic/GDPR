@@ -54,19 +54,25 @@ export class GdprInfoComponent implements OnInit {
   }
 
   delete() {
+    this.gdprViewComponent.gdprSpinner = true;
     this.backedService.deleteGdpr(this.model.id).subscribe(a => {
       this.messageService.add({
         severity: 'success',
         summary: 'Uspjeh',
         detail: a.message
       });
-      this.gdprViewComponent.ngOnInit();
+      this.gdprViewComponent.getGdprs();
     });
   }
 
   details() {
     this.dialogService.open(GdprDetailsComponent, {
       data: this.model,
+      modal: true,
+      style: {'width' : '90%', 'height': '80%'},
+      contentStyle: {"overflow": "auto"},
+      baseZIndex: 10000,
+      maximizable: true,
       header: "Detalji"
     });
   }
@@ -81,6 +87,11 @@ export class GdprInfoComponent implements OnInit {
 
     this.dialogService.open(GdprFormComponent, {
       data: gdprModel,
+      modal: true,
+      style: {'max-width' : '90%'},
+      contentStyle: {"overflow": "auto"},
+      baseZIndex: 10000,
+      maximizable: true,
       header: "Ažuriraj PIA"
     });
   }

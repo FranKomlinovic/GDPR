@@ -14,6 +14,18 @@
         "topic": "Raskoraci s regulativom",
         "question": "Jesu li identificirani mogući raskoraci s regulativom?",
         "requirement": "članak 28(3)"
+      },
+      {
+        "id": "1.3",
+        "topic": "Zapisi o reviziji",
+        "question": "Vode li se zapisi o reviziji?",
+        "requirement": "članak 28(3)"
+      },
+      {
+        "id": "1.4",
+        "topic": "Usklađenost trećih strana",
+        "question": "Jesu li treće stane koje obrađuju podatke usklađene s regulativom?",
+        "requirement": "članak 28(3)"
       }
     ]
   },
@@ -32,6 +44,244 @@
         "topic": "Osjetljivi osobni podaci",
         "question": "Ima li osjetljivih podataka? (podaci o djeci, zdravstveni podaci.. Članak 9)",
         "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      },
+      {
+        "id": "2.3",
+        "topic": "Prikupljanje osobnih podataka",
+        "question": "Od kuda se podaci prikupljaju?",
+        "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      },
+      {
+        "id": "2.4",
+        "topic": "Pohrana osobnih podataka",
+        "question": "Gdje se podaci spremaju?",
+        "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      },
+      {
+        "id": "2.5",
+        "topic": "Zaštita podatka (kriptiranje, anonimizacija)",
+        "question": "Jesu li podaci kriptirani/anonimizirani?",
+        "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      },
+      {
+        "id": "2.6",
+        "topic": "Otkrivanje podataka",
+        "question": "Kome podaci mogu biti otkriveni?",
+        "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      }
+    ]
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Priopćavanje informacija o privatnosti",
+    "questions": [
+      {
+        "id": "3.1",
+        "topic": "Obavijest o privatnosti",
+        "question": "Što sadrži obavijest o privatnosti?",
+        "requirement": "GDPR regulativa zahtjeva obrazloženje pravne osnove za obradu podataka (članak 6)"
+      },
+      {
+        "id": "3.2",
+        "topic": "Obavijest o privatnosti i GDPR",
+        "question": "Je li u obavijesti o privatnosti uključen i GDPR",
+        "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      },
+      {
+        "id": "3.3",
+        "topic": "Dostupnost Obavijesti o privatnosti",
+        "question": "Nalazi li se obavijest o privatnosti na web sjedištu?",
+        "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      }
+    ]
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Prava pojedinaca",
+    "questions": [
+      {
+        "id": "4.1",
+        "topic": "Prava pojedinaca",
+        "question": "Jesu li u obavijesti o privatnosti sadržana sva prava pojedinaca?",
+        "requirement": "GDPR dopušta pojedincima slijedeća prava:\n- prava na informiranost\n- pravo pristupa\n- pravo ispravka\n- pravo brisanja\n- pravo ograničenja obrade\n- pravo prijenosa\n- pravo prigovora\n- pravo odbijanja automatske obrade, profiliranja"
+      },
+      {
+        "id": "4.2",
+        "topic": "Ažuriranje obavijesti o privatnosti",
+        "question": "Je li obavijest o privatnosti ažurna?",
+        "requirement": "GDPR dopušta pojedincima slijedeća prava:\n- prava na informiranost\n- pravo pristupa\n- pravo ispravka\n- pravo brisanja\n- pravo ograničenja obrade\n- pravo prijenosa\n- pravo prigovora\n- pravo odbijanja automatske obrade, profiliranja"
+      },
+      {
+        "id": "4.3",
+        "topic": "Brisanje osobnih podataka",
+        "question": "Brišu li se osobni podaci?",
+        "requirement": "GDPR dopušta pojedincima slijedeća prava:\n- prava na informiranost\n- pravo pristupa\n- pravo ispravka\n- pravo brisanja\n- pravo ograničenja obrade\n- pravo prijenosa\n- pravo prigovora\n- pravo odbijanja automatske obrade, profiliranja"
+      },
+      {
+        "id": "4.4",
+        "topic": "Način pristupa osobnim podacima",
+        "question": "Pružate li podatke elektroničkim putem ili na neki drugi način?",
+        "requirement": "GDPR dopušta pojedincima slijedeća prava:\n- prava na informiranost\n- pravo pristupa\n- pravo ispravka\n- pravo brisanja\n- pravo ograničenja obrade\n- pravo prijenosa\n- pravo prigovora\n- pravo odbijanja automatske obrade, profiliranja"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Zahtjev za pristupom",
+    "questions": [
+      {
+        "id": "5.1",
+        "topic": "Postupanje po zahtjevu",
+        "question": "Je li moguće ispuniti zaprimljeni zahtjev o pravima u definiranom vremenskom roku uz pružanje točnih informacija",
+        "requirement": "Prema GDPR regulativi rok je 30 dana."
+      }
+    ]
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Pravna osnova",
+    "questions": [
+      {
+        "id": "6.1",
+        "topic": "Pravna osnova obrade podataka",
+        "question": "Koja je pravna osonova za obradu podataka?",
+        "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)"
+      },
+      {
+        "id": "6.2",
+        "topic": "Informiranje o obradi podataka",
+        "question": "Imate li obavijesti o obradi podataka?",
+        "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)"
+      },
+      {
+        "id": "6.3",
+        "topic": "Lokacija obavijesti o obradi podataka",
+        "question": "Gdje se nalazi obavijest o obradi podataka?",
+        "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)"
+      },
+      {
+        "id": "6.4",
+        "topic": "Obavijesti o privatnosti i obradi podataka",
+        "question": "Nalazi li se informacija o tome u Obavijesti o privatnosti?",
+        "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)"
+      }
+    ]
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Privola",
+    "questions": [
+      {
+        "id": "7.1",
+        "topic": "Revizija privola",
+        "question": "Je li napravljena revizija kako se traži, sprema i upravlja privolama?",
+        "requirement": "Privola mora biti dobrovoljna, potpisana bez prisile.\nPrivola mora biti specifična - mora jasno sadržavati što je privolom obuhvaćeno.\nPrivola mora na jednostavan način objašnjavati sve procesne aktivnosti i kako će se postupati s podacima.\nPristanak mora bit nedvosmislen.\nPrivola mora imati mogućnost povlačenja prema zahtjevu subjekta.\n"
+      },
+      {
+        "id": "7.2",
+        "topic": "e-mail obavijesti i privola",
+        "question": "Šalje li se privola prilikom pretplate na e-mail obavijesti?",
+        "requirement": "Privola mora biti dobrovoljna, potpisana bez prisile.\nPrivola mora biti specifična - mora jasno sadržavati što je privolom obuhvaćeno.\nPrivola mora na jednostavan način objašnjavati sve procesne aktivnosti i kako će se postupati s podacima.\nPristanak mora bit nedvosmislen.\nPrivola mora imati mogućnost povlačenja prema zahtjevu subjekta.\n"
+      },
+      {
+        "id": "7.3",
+        "topic": "Dokazivanje pristanka na privolu",
+        "question": "Može li se dokazati pristanak?",
+        "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)"
+      },
+      {
+        "id": "7.4",
+        "topic": "Usklađenost privole s GDPR regulativom",
+        "question": "Zadovoljava li privola GDPR standardu?",
+        "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)"
+      },
+      {
+        "id": "7.5",
+        "topic": "Povlačenje privole",
+        "question": "Može li se na jednostavan način povući privola?",
+        "requirement": "Zakonska osnova za obradu podataka može biti: (članak 6) \n1. Ispitanik je dao privolu za obradu u određenu svrhu\n2. Obrada je nužna za ostavarivanje ugovornih obveza\n3. obrada je nužna za izvršavanje zakonske obveze kojoj podliježe voditelj obrade\n4. obrada je nužna kako bi se zaštitili vitalni interesi ispitanika ili druge fizičke osobe;\n5. obrada je nužna za izvršavanje zadaće koja se izvršava u javnom interesu ili za izvršavanje službenog tijela koje je dodijeljeno voditelju obrade;\n6. obrada je nužna u svrhu legitimnih interesa koje provodi voditelj obrade ili treća strana, osim ako su takvi interesi nadjačani interesima ili temeljnim pravima i slobodama ispitanika koji zahtijevaju zaštitu osobnih podataka, posebno ako je ispitanik dijete. (članak 7-11)"
+      }
+    ]
+  },
+  {
+    "categoryId": 8,
+    "categoryName": "Djeca",
+    "questions": [
+      {
+        "id": "8.1",
+        "topic": "Podaci o djeci",
+        "question": "Prikupljaju li se podaci o djeci?",
+        "requirement": "GDPR zahtjeva posebnu zaštitu osobnih podataka o djeci (ispod 16 godina), uz obavezan pristanak roditelja. Obavijesti o privatnosti moraju biti razumljive i djeci."
+      },
+      {
+        "id": "8.2",
+        "topic": "Roditeljski pristanak za maloljetnu djecu",
+        "question": "Je li potrebna posebna procedura roditeljskog pristanka?",
+        "requirement": "GDPR zahtjeva posebnu zaštitu osobnih podataka o djeci (ispod 16 godina), uz obavezan pristanak roditelja. Obavijesti o privatnosti moraju biti razumljive i djeci."
+      }
+    ]
+  },
+  {
+    "categoryId": 9,
+    "categoryName": "Povreda podataka",
+    "questions": [
+      {
+        "id": "9.1",
+        "topic": "Povreda podataka",
+        "question": "Postoje li procedure za otkrivanje, izvještavanje i istragu povrede podataka?",
+        "requirement": "GDPR zahtjeva prijavu povrede podataka u roku od 72 sata od otkrivanja. "
+      }
+    ]
+  },
+  {
+    "categoryId": 10,
+    "categoryName": "Procjena učinka zaštite podataka",
+    "questions": [
+      {
+        "id": "10.1",
+        "topic": "Procjena učinka zaštite podataka",
+        "question": "Provodi li se procjena učinka zaštite podataka?",
+        "requirement": "Procjena učinka zaštite podataka propvodi se za one podatke kod kojih je utvrđena vjerojatnost postojanja viskog rizika za prava pojedinaca ukoliko budu otkriveni. Osiguranje sigurnosti podatka pri razvoju bilo kojeg projekta koji uključuje osobne podatke (prema članku 5)"
+      },
+      {
+        "id": "10.2",
+        "topic": "Sigurnost podataka dizajnom",
+        "question": "Princip \"Sigurnost podataka dizajnom\"",
+        "requirement": "Procjena učinka zaštite podataka propvodi se za one podatke kod kojih je utvrđena vjerojatnost postojanja viskog rizika za prava pojedinaca ukoliko budu otkriveni. Osiguranje sigurnosti podatka pri razvoju bilo kojeg projekta koji uključuje osobne podatke (prema članku 5)"
+      }
+    ]
+  },
+  {
+    "categoryId": 11,
+    "categoryName": "Službenik za zaštitu podatka",
+    "questions": [
+      {
+        "id": "11.1",
+        "topic": "Službenik za zaštitu podataka",
+        "question": "Postoji li službenik za zaštitu podataka?",
+        "requirement": "GDPR regulativa zahtjeva postojanje Službenika za zaštitu osobnih podatka ukoliko se radi o tijelu javne vlasti, ili organizaciji koja redovno obrađuje velike količine osobnih podataka. "
+      },
+      {
+        "id": "11.2",
+        "topic": "Obveze službenika za zaštitu podataka",
+        "question": "Provjerava li službenik usklađenost s GDPR regulativom?",
+        "requirement": "GDPR regulativa zahtjeva postojanje Službenika za zaštitu osobnih podatka ukoliko se radi o tijelu javne vlasti, ili organizaciji koja redovno obrađuje velike količine osobnih podataka. "
+      }
+    ]
+  },
+  {
+    "categoryId": 12,
+    "categoryName": "Prijenos između zemalja",
+    "questions": [
+      {
+        "id": "12.1",
+        "topic": "Prijenos podataka unutar EU",
+        "question": "Surađujete li ili razmijenjujete osobne podatke s drugim zemljama unutar EU?"
+      },
+      {
+        "id": "12.2",
+        "topic": "Prijenos podataka izvan EU",
+        "question": "Surađujete li ili razmijenjujete osobne podatke s  zemljama izvan EU?"
       }
     ]
   }

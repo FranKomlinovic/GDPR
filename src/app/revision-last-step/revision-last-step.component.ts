@@ -12,6 +12,8 @@ import {RevisionFormComponent} from "../revision-form/revision-form.component";
 })
 export class RevisionLastStepComponent implements OnInit {
 
+  spinner: boolean;
+
   constructor(public revisionFormComponent: RevisionFormComponent,
               private backendService: BackendService,
               private messageService: MessageService,
@@ -24,14 +26,14 @@ export class RevisionLastStepComponent implements OnInit {
   }
 
   submit() {
-    this.gdprViewComponent.spinner = true;
+    this.spinner = true;
     this.backendService
       .postRevision(this.revisionFormComponent.request)
       .subscribe((a) => {
           this.messageService.add({severity: 'success', summary: 'Uspjeh', detail: a.message})
           this.ref.close();
-          this.gdprViewComponent.ngOnInit();
-          this.gdprViewComponent.spinner = false;
+          this.spinner = false;
+          this.gdprViewComponent.getRevisions();
         }
       );
   }

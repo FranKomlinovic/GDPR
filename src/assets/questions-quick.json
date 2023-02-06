@@ -1,0 +1,26 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Podizanje svijesti",
+    "questions": [
+      {
+        "id": "1.1",
+        "topic": "Edukacija zaposlenika",
+        "question": "Jesu li svi zaposlenici upoznati s GDPR regulativom?",
+        "requirement": "Edukacija zaposlenika"
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Podatkovna revizija",
+    "questions": [
+      {
+        "id": "2.1",
+        "topic": "Osobni podaci",
+        "question": "Koji osobni podaci se pohranjuju?",
+        "requirement": "GDPR zahtjeva vođenje evidencije o obradi podataka."
+      }
+    ]
+  }
+]
